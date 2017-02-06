@@ -34,24 +34,40 @@
                 <a href=""> Peges </a>
             </li>
 
+
             <? foreach($page as $key=>$pages){?>
                 <? if (empty($pages->child)){?>
                     <li>
-                        <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+                       <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
                     </li>
                 <?} else{?>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo<?=$pages->id?>"><i class="fa fa-fw fa-arrows-v"></i> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" style="cursor: pointer"  data-toggle="collapse" class="collapsed" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo<?=$pages->id?>" class="collapse">
                             <li>
                                 <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
                             </li>
-                            <? drawChild($pages->child) ?>
+                            <? $cnt=drawChild($pages->child) ?>
                         </ul>
                     </li>
                 <?}?>
             <?}?>
         </ul>
     </div>
+
 </nav>
+
+<script>
+ /*   function menu() {
+
+
+        $( "#demo2" ).addClass( "in" )
+        $("#demo2").height( 45*8 );
+        $('#demo2').attr('aria-expanded', true);
+
+
+
+
+    }*/
+</script>
 

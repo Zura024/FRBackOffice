@@ -17,7 +17,6 @@ require_once 'model/redirectModel.php';
 
 require_once "fn/drawChild.php";
 require_once 'inc/auth.inc.php';
-//require_once "inc/menu.inc.php";
 require_once 'inc/page.inc.php';
 require_once 'inc/redirect.inc.php';
 ?>
@@ -30,12 +29,6 @@ require_once 'inc/redirect.inc.php';
 
     <? include "view/content.php" ?>
 </div>
-<style>
-    #cke_1_contents  {
-        height: 500px!important;
-        /*max-height: 250px!important;*/
-    }
-</style>
 </body>
 
 </html>

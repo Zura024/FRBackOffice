@@ -58,17 +58,18 @@ class RedirectModel{
 
     function createArray(){
         $arr=(object)array();
-        $arr->title=$_POST['title'];
-        $arr->alias=$_POST['alias'];
-        $arr->caption=$_POST['caption'];
-        $arr->id=$_POST['id'];
-        $arr->content=$_POST['content'];
-        $arr->sorder=$_POST['sorder'];
-        $arr->meta_descr=$_POST['meta_descr'];
-        $arr->meta_key=$_POST['meta_key'];
-        $arr->active=$_POST['active'];
-        $arr->template=$_POST['template'];
-        $arr->lang_id=$_POST['lang_id'];
+
+        $arr->title=addslashes(trim($_POST['title']));
+        $arr->alias=addslashes(trim($_POST['alias']));
+        $arr->caption=addslashes(trim($_POST['']));
+        $arr->id=addslashes(trim($_POST['id']));
+        $arr->content=addslashes(trim($_POST['content']));
+        $arr->sorder=addslashes(trim($_POST['sorder']));
+        $arr->meta_descr=addslashes(trim($_POST['meta_descr']));
+        $arr->meta_key=addslashes(trim($_POST['meta_key']));
+        $arr->active=addslashes(trim($_POST['active']));
+        $arr->template=addslashes(trim($_POST['template']));
+        $arr->lang_id=addslashes(trim($_POST['lang_id']));
         //$arr->alias_id=$_POST['alias_id'];
 
         return $arr;

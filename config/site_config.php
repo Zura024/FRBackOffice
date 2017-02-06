@@ -6,6 +6,6 @@
  * Time: 16:00
  */
 $config = (Object)array(
-    'domain' => 'http://localhost/MSGadminPanel'
+    'domain' => 'http://localhost/adminPanel'
 );
 

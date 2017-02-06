@@ -30,12 +30,7 @@ require_once 'inc/redirect.inc.php';
 
 <? include "view/content.php" ?>
 </div>
-<style>
-    #cke_1_contents  {
-        height: 500px!important;
-        /*max-height: 250px!important;*/
-    }
-</style>
+
 </body>
 
 </html>

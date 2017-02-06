@@ -8,6 +8,13 @@
  */
 class PageModel{
     function getPageById($id){
+        global $config;
+
+        if(!is_numeric($id)){
+
+            header('location: '.$config->domain.'');
+
+        }
 
         $query= "SELECT `parent_id`,`alias`,`sorder`,`meta_descr`,`meta_key`,`alias_id`,`active`,`template`,`caption`, `title`,`lang_id`, `id`, `content` FROM `bulk_pages` WHERE id=$id";
         $res=mysql_query($query);

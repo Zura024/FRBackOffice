@@ -19,12 +19,10 @@ if(!empty($_POST)){
 
         $user = (object) array('username' => $_POST['username'], 'password' => $_POST['password']);
 
-        //die($_POST['username']." ". $_POST['password']."  dfdf");
-
         $auth = new adminUser();
 
         $res = $auth->login($user);
-//            die(print_r($res));
+
 
         if($res->status == true){
 

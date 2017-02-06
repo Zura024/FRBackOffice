@@ -9,7 +9,14 @@
 class MenuModel
 {
     function getMenu($lang_id){
-        global $conn;
+
+        global $config;
+
+        if(!is_numeric($lang_id)||($lang_id>3)||($lang_id<1)){
+
+             header('location: '.$config->domain.'');
+
+         }
 
         $query = "SELECT `id`, `parent_id`,`title`,`caption` FROM `bulk_pages`  WHERE lang_id = $lang_id";
         $res=mysql_query($query) or die(mysql_error());

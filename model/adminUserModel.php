@@ -22,12 +22,14 @@
             if(isset($this->user)){
                 return (object) array('resultCode' => 0, 'status' => true, 'Desc' => 'Succeeded authentication', 'user' => $this->user);
             }
-            global $conn;
+
 
             $user->password = md5($user->password.md5('admin'));
             if(!preg_match('/^[a-zA-Z0-9]{5,}$/', $user->username)) {
                 return (object) array('resultCode' => -2, 'status' => false, 'Desc' => 'Sorry, you account is disabled');
             }
+
+
 
             $query = "SELECT `id`, `username`, `active`, 'role' FROM `admin` WHERE username = '$user->username' AND password = '$user->password'";
             $user_set = mysql_query($query);
