@@ -19,3 +19,37 @@
      return $cnt;
 
  }
+
+ function drawClass($id){?>
+     <?if (isset($_COOKIE[$id])&&($_COOKIE[$id]=='true')){?>
+         <?=""?>
+    <?}else{?>
+         <?="collapsed"?>
+     <?}
+ }
+
+ function drawAttr($id){
+     if (isset($_COOKIE[$id])&&($_COOKIE[$id]=='true')){?>
+         <?= "aria-expanded=true"?>
+     <?}else{?>
+        <?= "aria-expanded=true"?>
+     <?}
+ }
+
+ function drawUlClass($id){
+     if (isset($_COOKIE[$id])&&($_COOKIE[$id]=='true')){?>
+         <?= "collapse in"?>
+     <?}else{?>
+         <?= "collapse"?>
+     <?}
+
+ }
+
+ function drawStyle($id,$px){?>
+     <?$px=$px*2?>
+     <?if (isset($_COOKIE[$id])&&($_COOKIE[$id]=='true')){?>
+         <?= " style=\"height:'$px';\""?>
+     <?}else{?>
+         <?= " style=\"height: 0px;\""?>
+     <?}
+ }
