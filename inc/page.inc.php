@@ -11,3 +11,8 @@ if(!empty($_GET) && isset($_GET['id'])) {
     $page_cont=$result[0];
     $page=$result[1];
 }
+
+if(!empty($_GET) && isset($_GET['lang_id'])) {
+    $res = new MenuController();
+    $page=$res->getMenu($_GET['lang_id']);
+}

@@ -50,7 +50,7 @@ class RedirectModel{
             if ($result){
                 header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id.'&suc=1');
             }else{
-                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id);
+                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id.'suc=0');
             }
 
 
@@ -59,9 +59,10 @@ class RedirectModel{
     function createArray(){
         $arr=(object)array();
 
+
         $arr->title=addslashes(trim($_POST['title']));
         $arr->alias=addslashes(trim($_POST['alias']));
-        $arr->caption=addslashes(trim($_POST['']));
+        $arr->caption=addslashes(trim($_POST['caption']));
         $arr->id=addslashes(trim($_POST['id']));
         $arr->content=addslashes(trim($_POST['content']));
         $arr->sorder=addslashes(trim($_POST['sorder']));

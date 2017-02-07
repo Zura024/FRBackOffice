@@ -9,9 +9,7 @@
 require_once '/../model/redirectModel.php';
 class redirectController{
     function redirectPage(){
-        $red = new RedirectModel();
-        $array = $red->createArray();
-        $red->saveToDb($array);
+
     }
 }
 

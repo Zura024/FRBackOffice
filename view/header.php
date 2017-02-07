@@ -5,6 +5,7 @@
  * Date: 2/5/2017
  * Time: 2:48 AM
  */
+global $config;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,16 +18,10 @@
     <meta name="author" content="">
 
     <title>MSG Back Office</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="rsc/js/main.js"> </script>
+
     <script src="rsc/js/jquery.js"></script>
     <script src="rsc/js/bootstrap.min.js"></script>
 
-    <script src="rsc/js/plugins/morris/raphael.min.js"></script>
-    <script src="rsc/js/plugins/morris/morris.min.js"></script>
-    <script src="rsc/js/plugins/morris/morris-data.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <script src="//cdn.ckeditor.com/4.6.2/full/ckeditor.js"></script>

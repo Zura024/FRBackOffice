@@ -11,15 +11,17 @@ require_once 'config/site_config.php';
 require_once 'controller/MenuController.php';
 require_once 'controller/loginController.php';
 require_once 'controller/RedirectController.php';
+require_once 'controller/AddPageController.php';
 
 require_once 'model/redirectModel.php';
 require_once 'model/adminUserModel.php';
 require_once  'model/MenuModel.php';
+require_once  'model/AddPageModel.php';
 
 require_once "fn/drawChild.php";
 require_once 'inc/auth.inc.php';
 require_once 'inc/menu.inc.php';
-require_once 'inc/redirect.inc.php';
+require_once 'router/redirect.php';
 ?>
 
 <? include "view/header.php"?>
@@ -29,6 +31,7 @@ require_once 'inc/redirect.inc.php';
 <? include "view/navbar.php"?>
 
 <? include "view/index.content.php"?>
+
 </div>
 
 </body>

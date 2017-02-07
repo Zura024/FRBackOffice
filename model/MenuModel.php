@@ -18,7 +18,7 @@ class MenuModel
 
          }
 
-        $query = "SELECT `id`, `parent_id`,`title`,`caption` FROM `bulk_pages`  WHERE lang_id = $lang_id";
+        $query = "SELECT `id`, `parent_id`,`title`,`caption` FROM `bulk_pages`  WHERE lang_id = $lang_id && is_deleted=0";
         $res=mysql_query($query) or die(mysql_error());
         $pages=array();
         $cnt=0;
