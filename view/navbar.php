@@ -7,29 +7,6 @@
  */
 
 ?>
-<!--<script>
-    function menu() {
-        console.log("dsdsdsd");
-        if ( $("#demo2").hasClass( "in" ) ) {
-            $("#demo2").removeClass( "in" );
-            $("#demo2").attr('aria-expanded', false);
-            $("#test").attr('aria-expanded', false);
-            $("#test").addClass("collapsed");
-            /*console.log("no")
-             document.cookie = id + "=false";*/
-
-        } else {
-            //console.log("chamoshlili");
-            $("#demo2").addClass( "in" );
-            //$("#demo2").height( 45*8 );
-            $("#demo2").attr('aria-expanded', true);
-            $("#test").attr('aria-expanded', true);
-            $("#test").removeClass("collapsed");
-             console.log("yes")
-             document.cookie = id + "=true";*/
-        }
-    }
-</script>-->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"">
     <div class="navbar-header">
         <a class="navbar-brand" href="<?=$config->domain?>">MSG Admin</a>
@@ -63,17 +40,34 @@
                     <li>
                       <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
                     </li>
-                <?} else{?>
-                    <li>
-                        <a href="javascript:;" style="cursor: pointer"  data-toggle="collapse" class="collapsed" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="demo<?=$pages->id?>" class="collapse">
-                            <li>
-                                <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
-                            </li>
-                            <? $cnt=drawChild($pages->child) ?>
-                        </ul>
-                    </li>
-                <?}?>
+                <?} else{
+
+                    if (checkDrop($pages->id)){?>
+                        <li>
+                            <a onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="demo<?=$pages->id?>" class="collapse in">
+                                <li>
+                                    <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+                                </li>
+                                <? $cnt=drawChild($pages->child) ?>
+                            </ul>
+                        </li>
+
+                   <?} else{?>
+                        <li>
+                            <a onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="collapsed" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="demo<?=$pages->id?>" class="collapse">
+                                <li>
+                                    <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+                                </li>
+                                <? $cnt=drawChild($pages->child) ?>
+                            </ul>
+                        </li>
+                    <?}
+
+
+
+                }?>
             <?}?>
         </ul>
     </div>

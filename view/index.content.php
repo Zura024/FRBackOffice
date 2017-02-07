@@ -8,15 +8,6 @@
 
 global $config;
 ?>
-<script>
-
-    $( document ).ready(function() {
-        $( "#alias12" ).keyup(function() {
-        });
-    });
-
-</script>
-
 <div id="page-wrapper">
 
     <div class="modal fade" id="myModal" role="dialog">

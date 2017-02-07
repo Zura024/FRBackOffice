@@ -18,7 +18,7 @@ global $config;
     <meta name="author" content="">
 
     <title>MSG Back Office</title>
-
+    <script src="rsc/js/main.js"> </script>
     <script src="rsc/js/jquery.js"></script>
     <script src="rsc/js/bootstrap.min.js"></script>
 
