@@ -18,7 +18,7 @@ class MenuModel
 
          }
 
-        $query = "SELECT `id`, `parent_id`,`title`,`caption` FROM `bulk_pages`  WHERE lang_id = $lang_id && is_deleted=0";
+        $query = "SELECT `id`, `parent_id`,`title`,`caption` , `lang_id` FROM `bulk_pages`  WHERE lang_id = $lang_id && is_deleted=0";
         $res=mysql_query($query) or die(mysql_error());
         $pages=array();
         $cnt=0;
@@ -27,29 +27,21 @@ class MenuModel
             $pages[]=(object)$row;
             $pages[$cnt]->child=array();
             $cnt++;
-
         }
-        //print_r($pages[0]->cnt);
         for ($i=0; $i<$cnt-1; $i++ ) {
             for ($j = 0; $j < $cnt-1; $j++) {
-                $c=0;
                 if($pages[$i]->parent_id==$pages[$j]->id){
                     array_push($pages[$j]->child,$pages[$i]);
                     $pages[$j]->cnt=$pages[$j]->cnt+1;
                 }
-
             }
-
         }
-
         for ($i=0; $i<$cnt-1; $i++ ) {
             if($pages[$i]->parent_id==0){
                 $result[]=$pages[$i];
             }
         }
-
         return $result;
-
     }
 
 }

@@ -11,6 +11,4 @@ require_once '/../model/DeleteModel.php';
 if (!empty($_POST)&&(isset($_POST['id']))) {
     $del = new DeleteModel();
     $del->deletePage($_POST['id']);
-}else{
-
 }

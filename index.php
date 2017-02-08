@@ -10,8 +10,6 @@ require_once 'config/site_config.php';
 
 require_once 'controller/MenuController.php';
 require_once 'controller/loginController.php';
-require_once 'controller/RedirectController.php';
-require_once 'controller/AddPageController.php';
 
 require_once 'model/redirectModel.php';
 require_once 'model/adminUserModel.php';

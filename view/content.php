@@ -6,56 +6,24 @@
  * Time: 2:55 AM
  */
 ?>
+<script>
+    $( document ).ready(function() {
+        $('#lang').change(function () {
+                $("#lang_input").val(this.value);
+                console.log(this.value);
+                console.log($("#lang_input").val());
+        })
 
+        $('#active').change(function () {
+            $("#active_input").val(this.value);
+            console.log(this.value);
+            console.log($("#active_input").val());
+        })
+
+    });
+</script>
 <div id="page-wrapper">
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog ">
-            <div class="modal-content" style="height: 650px">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title" style="margin: auto">Add new page</h4>
-                </div>
-                <div class="modal-body" style="height: 660px;">
-                    <form  method="post" action="<?=$config->domain?>/router/addPage.php">
-                        <div>
-                            <div id="all" style="background-color: #f2adaa; padding: 10px;">
-                                <fieldset>   <input id="alias12" type="text" class="form-control" name="alias" placeholder="Alias" required> </fieldset>
-                            </div>
-                        </div>
-                        <div>
-                            <span for"ge"><h4>Ge</h4></span>
-                            <div id="ge" style="background-color: #bdf2d5; padding: 10px;">
-                                <input type="text" class="form-control" name="title_ge" placeholder="Title Ge" required>
-                                <br>
-                                <input type="text" class="form-control" name="caption_ge" placeholder="Caption Ge" required>
-                            </div>
-                        </div>
-                        <div>
-                            <span for"en"><h4>Eng</h4></span>
-                            <div id="en" style="background-color: #bde0f2; padding: 10px">
-                                <input type="text" class="form-control" name="title_en" placeholder="Title En" required>
-                                <br>
-                                <input type="text" class="form-control" name="caption_en" placeholder="Caption En" required>
-                            </div>
-                        </div>
-                        <div>
-                            <span for"ru"><h4>Rus</h4></span>
-                            <div id="ru" style="background-color: #f0f2da; padding: 10px">
-                                <input type="text" class="form-control" name="title_ru" placeholder="Title Ru">
-                                <br>
-                                <input type="text" class="form-control" name="caption_ru" placeholder="Caption Ru">
-                            </div>
-                        </div>
-
-                        <div>
-                            <br>
-                            <input type="submit" value="Save" class="btn btn-default" style="float: right">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    <? include 'view/addPage.php'?>
     <div class="container-fluid">
         <form action="<?=$config->domain?>/router/redirect.php" method="post">
             <!-- Page Heading -->
@@ -65,7 +33,11 @@
                         <div class="panel-heading" style="height: 30px; text-align: center; padding: 5px;">
                             <h4  id="1" style="margin: auto; cursor: pointer"> Meta Tags   <i style="float: right" class="fa fa-fw fa-arrows-v"></i> </h4>
                         </div>
-                        <div id="meta" style="display: none">
+                        <? if ($page_cont->id==2){?>
+                        <div id="meta" style="display: block;">
+                            <?}else{?>
+                            <div id="meta" style="display: none;">
+                                <?}?>
                             <span for="meta_desc">Meta Desc:</span> <br> <input type="text" class="form-control" name="meta_descr" value="<? if (isset($page_cont->meta_descr)){?><?= $page_cont->meta_descr ?><?}?>">
                             <span for="meta_desc">Meta Key:</span> <br> <input class="form-control" type="text" name="meta_key" value="<? if (isset($page_cont->meta_key)){?><?= $page_cont->meta_key?><?}?>">
                             <span for="meta_desc">Alias:</span> <br> <input type="text" class="form-control" name="alias" value="<? if (isset($page_cont->alias)){?><?= $page_cont->alias?><?}?>">
@@ -75,6 +47,11 @@
                     <script>
                         $( "#1" ).click(function() {
                             $("#meta" ).fadeToggle( 500, "linear" );
+                            if($("#meta").is(":visible")) {
+                                console.log("gashlilia");
+                            }else{
+                                console.log("damalulia");
+                            }
                         });
                     </script>
                 </div>
@@ -83,7 +60,11 @@
                         <div class="panel-heading" style="height: 30px; text-align: center; padding: 5px;">
                             <h4  id="3" style="margin: auto; cursor: pointer"> Caption  <i style="float: right" class="fa fa-fw fa-arrows-v"></i> </h4>
                         </div>
-                        <div id="cont" style="display: none">
+                        <? if ($page_cont->id==3){?>
+                            <div id="cont" style="display: block">
+                        <?}else{?>
+                            <div id="cont" style="display: none">
+                        <?}?>
                             <span for="meta_desc">Caption:</span><br><input class="form-control" type="text" name="caption" value="<? if (isset($page_cont->caption)){?><?= $page_cont->caption?><?}?>">
                             <input  style="display: none" type="text" name="id" value="<? if (isset($page_cont->id)){?><?= $page_cont->id?><?}?>">
                         </div>
@@ -100,17 +81,33 @@
                         <div class="panel-heading" style="height: 30px; text-align: center; padding: 5px;">
                             <h4  id="2" style="margin: auto; cursor: pointer"> Template   <i style="float: right" class="fa fa-fw fa-arrows-v"></i>  </h4>
                         </div>
-                        <div id="temp" style="display: none">
+                        <? if ($page_cont->id==1){?>
+                        <div id="temp" style="display: block">
+                            <?}else{?>
+                            <div id="temp" style="display: none">
+                                <?}?>
+                            <span for="meta_desc">Language:</span><br><select id="lang" class="form-control">
+                                <option value="1" <? if (($page_cont->lang_id==1)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?> >Ge</option>
+                                <option value="2" <? if (($page_cont->lang_id==2)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?>>Eng</option>
+                                <option value="3" <? if (($page_cont->lang_id==3)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?> >Ru</option>
+                                <option <? if (!isset($page_cont->lang_id)){?><?="selected"?><?}?>></option>
+                            </select>
+                            <span for="meta_desc">Active:</span><br><select id="active" class="form-control">
+                                <option value="1" <? if (($page_cont->active==1)&&(isset($page_cont->active))){?><?="selected"?><?}?> >Enabled</option>
+                                <option value="0" <? if (($page_cont->active==0)&&(isset($page_cont->active))){?><?="selected"?><?}?>>Disabled</option>
+                                <option <? if (!isset($page_cont->active)){?><?="selected"?><?}?>></option>
+                            </select>
                             <span for="meta_desc">Sorder:</span> <br><input class="form-control" type="text" name="sorder" value="<? if (isset($page_cont->sorder)){?><?= $page_cont->sorder?><?}?>">
-                            <span for="meta_desc">Active:</span> <br><input  class="form-control" type="text" name="active" value="<? if (isset($page_cont->active)){?><?= $page_cont->active?><?}?>">
+                            <input  style="display: none" id="active_input" class="form-control" type="text" name="active" value="<? if (isset($page_cont->active)){?><?= $page_cont->active?><?}?>">
                             <span for="meta_desc">Template:</span><br><input class="form-control" type="text" name="template" value="<? if (isset($page_cont->template)){?><?= $page_cont->template?><?}?>">
-                            <span for="meta_desc">Language Id:</span><br><input class="form-control" type="text" name="lang_id" value="<? if (isset($page_cont->lang_id)){?><?= $page_cont->lang_id?><?}?>">
+                            <input  id="lang_input" style="display: none" class="form-control" type="text" name="lang_id" value="<? if (isset($page_cont->lang_id)){?><?= $page_cont->lang_id?><?}?>">
                         </div>
                     </div>
                     <script> function test1() {
                         }
                         $( "#2" ).click(function() {
                             $("#temp" ).fadeToggle( 500, "linear" );
+
                         });
                     </script>
                 </div>
@@ -128,14 +125,14 @@
                     <?}?>
                     <?if((isset($_GET['suc']))&&($_GET['suc']==0)){?>
                         <div class="alert alert-danger" style="height: 35px; width: 200px; float: left; text-align: center; padding: 7px;">
-                            <strong>Page has doesn't changed </strong>
+                            <strong>Page hasn't changed </strong>
                         </div>
                     <?}?>
                     <div class="alert alert-success" id="suc_msg" style="display: none; height: 35px; width: 200px; float: left; text-align: center; padding: 7px;">
-                        <strong>Page has doesn't changed</strong>
+                        <strong>Page deleted successfully</strong>
                     </div>
                     <div class="alert alert-danger" id="error_msg" style="display: none; height: 35px; width: 200px; float: left; text-align: center; padding: 7px;">
-                        <strong>Page has doesn't changed</strong>
+                        <strong>Page hasn't deleted</strong>
                     </div>
                 </div>
             </div>

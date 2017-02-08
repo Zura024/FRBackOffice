@@ -5,6 +5,8 @@
  * Date: 01.02.2017
  * Time: 14:42
  */
+require_once "controller/loginController.php";
+require_once "login.php";
 require_once "model/adminUserModel.php";
 require_once "config/db_congif.php";
 require_once "config/site_config.php";

@@ -21,10 +21,11 @@ global $config;
     <script src="rsc/js/main.js"> </script>
     <script src="rsc/js/jquery.js"></script>
     <script src="rsc/js/bootstrap.min.js"></script>
+    <script src="rsc/js/bootbox.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-    <script src="//cdn.ckeditor.com/4.6.2/full/ckeditor.js"></script>
+    <script src="rsc/js/ckeditor/ckeditor.js"></script>
 
     <link href="rsc/css/bootstrap.min.css" rel="stylesheet">
     <link href="rsc/css/sb-admin.css" rel="stylesheet">

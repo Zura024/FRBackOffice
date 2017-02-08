@@ -14,5 +14,10 @@ if(!empty($_GET) && isset($_GET['id'])) {
 
 if(!empty($_GET) && isset($_GET['lang_id'])) {
     $res = new MenuController();
-    $page=$res->getMenu($_GET['lang_id']);
+    $page = $res->getMenu($_GET['lang_id']);
+}
+
+if(empty($_GET)){
+    $res = new MenuController();
+    $page = $res->getMenu(1);
 }

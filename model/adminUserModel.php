@@ -26,7 +26,7 @@
 
             $user->password = md5($user->password.md5('admin'));
             if(!preg_match('/^[a-zA-Z0-9]{5,}$/', $user->username)) {
-                return (object) array('resultCode' => -2, 'status' => false, 'Desc' => 'Sorry, you account is disabled');
+                return (object) array('resultCode' => -3, 'status' => false, 'Desc' => 'Incorrect Username format');
             }
 
 
@@ -34,7 +34,6 @@
             $query = "SELECT `id`, `username`, `active`, 'role' FROM `admin` WHERE username = '$user->username' AND password = '$user->password'";
             $user_set = mysql_query($query);
             if(mysql_num_rows($user_set) > 0){
-
                 $admin = (object) mysql_fetch_assoc($user_set);
                 if($admin->active == 0){
                     return (object) array('resultCode' => -2, 'status' => false, 'Desc' => 'Sorry, you account is disabled');

@@ -31,7 +31,7 @@ if(!empty($_POST)){
 
         } else {
 
-            header('location: '.$config->domain.'login.php?fail='.$res->Desc);
+            header('location: '.$config->domain.'/login.php?status='.$res->resultCode);
 
         }
 

@@ -2,34 +2,60 @@
  * Created by user1 on 06.02.2017.
  */
 
+function doCheck() {
 
-$( "#alias12" ).keyup(function() {
-        console.log("hello");
-});
+    var a=$('#all')
+    if (a.hasClass("t")){
+        return true;
+        console.log("aris")
 
+    } else {
+        console.log("ar aris")
+        $("#all").css("background-color", "#f20300");
+            setTimeout(function () {
+            $("#all").css("background-color", "#f2827f");
+            },100)
 
-function delete_page(id){
-    console.log(id);
-    $.ajax({
-        type : 'POST',
-        url  : 'router/delete.php',
-        data : {
-            id: id
-        },
-        success :  function(data) {
-            if (data=="ok"){
+        return false;
+    }
+}
 
-                $("#suc_msg").show();
-                setTimeout(function(){
-                    window.location.href = "page.php?id="+id;
-                }, 3000);
-
+function delete_page(id) {
+    bootbox.confirm({
+        message: "Do you really want to delete this page?",
+        buttons: {
+            confirm: {
+                label: 'Yes',
+                className: 'btn-danger'
+            },
+            cancel: {
+                label: 'No',
+                className: 'btn-success'
             }
+        },
+        callback: function (result) {
+            if (result){
+                console.log(id);
+                $.ajax({
+                    type : 'POST',
+                    url  : 'router/delete.php',
+                    data : {
+                        id: id
+                    },
+                    success :  function(data) {
+                        if (data=="ok"){
+                            $("#suc_msg").show();
+                            setTimeout(function(){
+                                window.location.href = "page.php?id="+id;
+                            }, 3000);
 
+                        }
+
+                    }
+                });
+            }
         }
     });
-
-
 }
 
 function menu(id) {

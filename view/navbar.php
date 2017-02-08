@@ -31,7 +31,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse" style="width: 500px!important;">
         <ul class="nav navbar-nav side-nav"">
             <li class="active">
-                <a> Peges <i class="fa fa-fw fa-power-off fa-2x "  data-toggle="modal" data-target="#myModal" style="float: right; cursor: pointer;"> </i> </a>
+                <a> Peges <i class="fa fa-fw fa-plus fa-2x "  data-toggle="modal" data-target="#myModal" style="float: right; cursor: pointer;"> </i> </a>
             </li>
 
             <? foreach($page as $key=>$pages){?>
