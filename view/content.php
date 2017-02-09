@@ -138,7 +138,7 @@
                     </script>
                 </div>
                 <div class="col-lg-1 col-md-6">
-                     <a class=" btn btn-danger" onclick="delete_page('<?=$page_cont->alias ?>')" > Delete </a>
+                     <a class=" btn btn-danger" onclick="delete_page( '<?=$page_cont->alias ?>',<?=$page_cont->id?> )" > Delete </a>
                 </div>
                 <div class="col-lg-1 col-md-6" style="float: right">
                     <input type="submit"  value="Save" class="btn btn-default" >

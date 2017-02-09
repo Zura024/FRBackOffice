@@ -18,12 +18,10 @@ if(!empty($_GET) && isset($_GET['lang_id'])){
     if ($lang_id==1)
         $lang="ge";
 }else{
-
     $lang_id=1;
     $lang="ge";
     $pages=new MenuController();
     $result=$pages->getMenu($lang_id);
     $page=$result[0];
     $deleted=$result[1];
-
 }

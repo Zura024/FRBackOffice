@@ -40,16 +40,16 @@
 
                 <? if (empty($pages->child)){?>
                     <li>
-                      <a id="page<?=$pages->alias?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
+                      <a id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
                     </li>
                 <?} else{
 
                     if (checkDrop($pages->id)){?>
                         <li>
-                            <a id="page<?=$pages->alias?>" onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                            <a id="page<?=$pages->id?>" onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="demo<?=$pages->id?>" class="collapse in">
                                 <li>
-                                    <a  id="page<?=$pages->alias?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+                                    <a  id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
                                 </li>
                                 <? drawChild($pages->child)?>
                             </ul>

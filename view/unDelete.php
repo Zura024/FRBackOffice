@@ -5,6 +5,8 @@
  * Date: 09.02.2017
  * Time: 13:04
  */
+/*print_r($deleted);
+die();*/
 ?>
 
 <div class="modal fade" id="myModal1" role="dialog">
@@ -23,13 +25,13 @@
                         <td> <strong>Ru</strong> </td>
                         <td></td>
                     </tr>
-                        <? foreach ($deleted as $page){?>
-                            <tr id="delete<?=$page[0]?>">
-                                <td><p style="margin-top: 5px"><?=$page[0]?> </p></td>
-                                <td><p style="margin-top: 5px"><?=$page[1]?> </p></td>
-                                <td><p style="margin-top: 5px"><?=$page[2]?> </p></td>
-                                <td><p style="margin-top: 5px"><?=$page[3]?> </p></td>
-                                <td><button style="float: right" class="btn btn-success" onclick="unDeleted('<?=$page[0]?>')"> Undelete </button> </td>
+                        <? foreach ($deleted as $key=>$page){?>
+                            <tr id="delete<?=$page->alias?>">
+                                <td><p style="margin-top: 5px"><?=$page->alias?> </p></td>
+                                <td><p style="margin-top: 5px"><?=$page->ge?> </p></td>
+                                <td><p style="margin-top: 5px"><?=$page->en?> </p></td>
+                                <td><p style="margin-top: 5px"><?=$page->ru?> </p></td>
+                                <td><button style="float: right" class="btn btn-success" onclick="unDeleted('<?=$page->alias?>')"> Undelete </button> </td>
                             </tr>
                         <?}?>
                 </table>

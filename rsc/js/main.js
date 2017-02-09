@@ -20,7 +20,6 @@ function unDeleted(alias) {
 
         }
     });
-
 }
 function doCheck() {
 
@@ -34,7 +33,7 @@ function doCheck() {
         $("#all").css("background-color", "#f20300");
             setTimeout(function () {
             $("#all").css("background-color", "#f2827f");
-            },100)
+            },30)
 
         return false;
     }
@@ -43,7 +42,7 @@ function doCheck() {
 function tttt(alias) {
     console.log(alias)
 }
-function delete_page(alias,a) {
+function delete_page(alias,id) {
     console.log(alias);
     bootbox.confirm({
         message: "Do you really want to delete this page?",
@@ -69,7 +68,7 @@ function delete_page(alias,a) {
                         if (data=="ok"){
                             console.log(data);
                             $("#suc_msg").show();
-                            $("#page+alias").remove();
+                            $("#page"+id).remove();
                         }else {
                             console.log(data);
                         }

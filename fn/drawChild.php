@@ -10,7 +10,7 @@
      ?>
      <?foreach ($page as $key => $pages){ ?>
          <li>
-         <a  id="page<?=$pages->alias?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+         <a  id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
          </li>
      <?}
 
