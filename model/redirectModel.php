@@ -8,6 +8,7 @@
  */
 require_once "/../config/db_congif.php";
 require_once "/../config/site_config.php";
+@session_start();
 class RedirectModel{
     function saveToDb($array){
             global $conn;
@@ -48,9 +49,11 @@ class RedirectModel{
             $result=mysql_query($sql) or die(mysql_error());
 
             if ($result){
-                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id.'&suc=1');
+                $_SESSION['msg']="success";
+                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id.'&s=1');
             }else{
-                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id.'suc=0');
+                $_SESSION['error']="error";
+                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id);
             }
 
 

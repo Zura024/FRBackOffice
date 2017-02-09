@@ -7,24 +7,25 @@
  */
 
 global $config;
+
+
 ?>
 
 <div id="page-wrapper">
 
     <? include 'view/addPage.php'?>
+    <? include 'view/unDelete.php' ?>
 
 
-
-    <div style="height: 50px" onclick="t()">
-        <?if((isset($_GET['suc']))&&($_GET['suc']==1)){?>
+    <div style="height: 50px">
+        <?if(checkSession()){?>
             <div class="alert alert-success" style="height: 35px; width: 185px; float: left; text-align: center; padding: 7px;">
-                <strong>Successfully Saved</strong>
-
+                <strong> Successfully Saved </strong>
             </div>
         <?}?>
-        <?if((isset($_GET['suc']))&&($_GET['suc']==0)){?>
-            <div class="alert alert-danger" style="height: 35px; width: 200px; float: left; text-align: center; padding: 7px;">
-                <strong>Page hasn't saved</strong>
+        <?if(checkErrorSession()){?>
+            <div class="alert alert-danger" style="height: 35px; width: 280px; float: left; text-align: center; padding: 7px;">
+                <strong> Page haven't saved successfully </strong>
             </div>
         <?}?>
     </div>

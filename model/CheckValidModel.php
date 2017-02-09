@@ -16,7 +16,6 @@ class CheckValidModel{
         $res=mysql_query($sql) or die(mysql_error());
 
         if(mysql_num_rows($res) > 0){
-
             echo "already";
         }else{
             echo  "valid";

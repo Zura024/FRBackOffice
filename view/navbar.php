@@ -31,25 +31,27 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse" style="width: 500px!important;">
         <ul class="nav navbar-nav side-nav"">
             <li class="active">
-                <a> Peges <i class="fa fa-fw fa-plus fa-2x "  data-toggle="modal" data-target="#myModal" style="float: right; cursor: pointer;"> </i> </a>
+                <a> Peges <i class="fa fa-fw fa-plus fa-2x "  data-toggle="modal" data-target="#myModal" style="float: right; cursor: pointer;"></i>
+                    <i class="fa fa-fw fa-trash-o fa-2x " data-toggle="modal" data-target="#myModal1" style="float: right; cursor: pointer;"> </i>
+                </a>
             </li>
 
             <? foreach($page as $key=>$pages){?>
 
                 <? if (empty($pages->child)){?>
                     <li>
-                      <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
+                      <a id="page<?=$pages->alias?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
                     </li>
                 <?} else{
 
                     if (checkDrop($pages->id)){?>
                         <li>
-                            <a onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                            <a id="page<?=$pages->alias?>" onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="demo<?=$pages->id?>" class="collapse in">
                                 <li>
-                                    <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+                                    <a  id="page<?=$pages->alias?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
                                 </li>
-                                <? $cnt=drawChild($pages->child) ?>
+                                <? drawChild($pages->child)?>
                             </ul>
                         </li>
 

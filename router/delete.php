@@ -8,7 +8,7 @@
 require_once '/../model/DeleteModel.php';
 
 
-if (!empty($_POST)&&(isset($_POST['id']))) {
+if (!empty($_POST)&&(isset($_POST['alias']))) {
     $del = new DeleteModel();
-    $del->deletePage($_POST['id']);
+    $del->deletePage($_POST['alias']);
 }

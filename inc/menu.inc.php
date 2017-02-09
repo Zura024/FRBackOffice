@@ -8,7 +8,9 @@
 if(!empty($_GET) && isset($_GET['lang_id'])){
     $lang_id=$_GET['lang_id'];
     $pages=new MenuController();
-    $page=$pages->getMenu($lang_id);
+    $result=$pages->getMenu($lang_id);
+    $page=$result[0];
+    $deleted=$result[1];
     if ($lang_id==2)
         $lang="en";
     if ($lang_id==3)
@@ -20,6 +22,8 @@ if(!empty($_GET) && isset($_GET['lang_id'])){
     $lang_id=1;
     $lang="ge";
     $pages=new MenuController();
-    $page=$pages->getMenu($lang_id);
+    $result=$pages->getMenu($lang_id);
+    $page=$result[0];
+    $deleted=$result[1];
 
 }

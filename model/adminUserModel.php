@@ -35,6 +35,7 @@
             $user_set = mysql_query($query);
             if(mysql_num_rows($user_set) > 0){
                 $admin = (object) mysql_fetch_assoc($user_set);
+                $_SESSION['admin']->id=$admin->id;
                 if($admin->active == 0){
                     return (object) array('resultCode' => -2, 'status' => false, 'Desc' => 'Sorry, you account is disabled');
                 }

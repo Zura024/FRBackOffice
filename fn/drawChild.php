@@ -7,23 +7,34 @@
  */
  function drawChild($page ){
      global $config;
-     $cnt=0;
      ?>
      <?foreach ($page as $key => $pages){ ?>
-         <? $cnt++?>
          <li>
-         <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+         <a  id="page<?=$pages->alias?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
          </li>
      <?}
 
-     return $cnt;
-
  }
 
- function checkDrop($id){?>
-     <?if (isset($_COOKIE[$id])&&($_COOKIE[$id]=='true')){?>
-         <?return true?>
+function checkDrop($id){?>
+    <?if (isset($_COOKIE[$id])&&($_COOKIE[$id]=='true')){?>
+        <?return true?>
     <?}else{?>
-         <?return false?>
-     <?}
- }
+        <?return false?>
+    <?}
+}
+
+function checkSession(){?>
+    <?if (isset($_SESSION['msg'])){?>
+        <? unset($_SESSION['msg']); return true?>
+    <?}else{?>
+        <?return false?>
+    <?}
+}
+function checkErrorSession(){?>
+    <?if (isset($_SESSION['error'])){?>
+        <? unset($_SESSION['error']); return true?>
+    <?}else{?>
+        <?return false?>
+    <?}
+}

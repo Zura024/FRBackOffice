@@ -27,7 +27,9 @@ class PageModel{
         $result=array();
         array_push($result,$page);
         $menu= new MenuController();
-        array_push($result,$menu->getMenu($page->lang_id));
+        $men=$menu->getMenu($page->lang_id);
+        array_push($result,$men[0]);
+        array_push($result,$men[1]);
         return $result;
 
     }

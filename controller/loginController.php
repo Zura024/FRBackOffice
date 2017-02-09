@@ -17,7 +17,7 @@ if(!empty($_POST)){
 
     if(isset($_POST['username']) && isset($_POST['password'])){
 
-        $user = (object) array('username' => $_POST['username'], 'password' => $_POST['password']);
+        $user = (object) array('username' => $_POST['username'], 'password' => $_POST['password'], 'id' => 0);
 
         $auth = new adminUser();
 

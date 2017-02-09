@@ -2,6 +2,26 @@
  * Created by user1 on 06.02.2017.
  */
 
+function unDeleted(alias) {
+    console.log("unDeleted+"+alias);
+    $.ajax({
+        type : 'POST',
+        url  : 'router/unDelete.php',
+        data : {
+            alias: alias
+        },
+        success :  function(data) {
+            if (data=="ok"){
+                console.log("ok");
+                $("#delete"+alias).remove();
+            }else {
+                console.log(data)
+            }
+
+        }
+    });
+
+}
 function doCheck() {
 
     var a=$('#all')
@@ -20,7 +40,11 @@ function doCheck() {
     }
 }
 
-function delete_page(id) {
+function tttt(alias) {
+    console.log(alias)
+}
+function delete_page(alias,a) {
+    console.log(alias);
     bootbox.confirm({
         message: "Do you really want to delete this page?",
         buttons: {
@@ -35,20 +59,19 @@ function delete_page(id) {
         },
         callback: function (result) {
             if (result){
-                console.log(id);
                 $.ajax({
                     type : 'POST',
                     url  : 'router/delete.php',
                     data : {
-                        id: id
+                        alias: alias
                     },
                     success :  function(data) {
                         if (data=="ok"){
+                            console.log(data);
                             $("#suc_msg").show();
-                            setTimeout(function(){
-                                window.location.href = "page.php?id="+id;
-                            }, 3000);
-
+                            $("#page+alias").remove();
+                        }else {
+                            console.log(data);
                         }
 
                     }

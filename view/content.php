@@ -24,6 +24,7 @@
 </script>
 <div id="page-wrapper">
     <? include 'view/addPage.php'?>
+    <? include 'view/unDelete.php' ?>
     <div class="container-fluid">
         <form action="<?=$config->domain?>/router/redirect.php" method="post">
             <!-- Page Heading -->
@@ -33,8 +34,8 @@
                         <div class="panel-heading" style="height: 30px; text-align: center; padding: 5px;">
                             <h4  id="1" style="margin: auto; cursor: pointer"> Meta Tags   <i style="float: right" class="fa fa-fw fa-arrows-v"></i> </h4>
                         </div>
-                        <? if ($page_cont->id==2){?>
-                        <div id="meta" style="display: block;">
+                        <? if (checkDrop("meta")){?>
+                        <div id="meta" class="droped" style="display: block;">
                             <?}else{?>
                             <div id="meta" style="display: none;">
                                 <?}?>
@@ -47,9 +48,14 @@
                     <script>
                         $( "#1" ).click(function() {
                             $("#meta" ).fadeToggle( 500, "linear" );
-                            if($("#meta").is(":visible")) {
+                            if($("#meta").hasClass("droped")) {
+                                $('#meta').removeClass("droped")
+                                document.cookie ="meta=false";
                                 console.log("gashlilia");
                             }else{
+                                $('#meta').addClass("droped")
+
+                                document.cookie = "meta=true";
                                 console.log("damalulia");
                             }
                         });
@@ -60,8 +66,8 @@
                         <div class="panel-heading" style="height: 30px; text-align: center; padding: 5px;">
                             <h4  id="3" style="margin: auto; cursor: pointer"> Caption  <i style="float: right" class="fa fa-fw fa-arrows-v"></i> </h4>
                         </div>
-                        <? if ($page_cont->id==3){?>
-                            <div id="cont" style="display: block">
+                        <? if (checkDrop("cont")){?>
+                            <div id="cont" class="droped" style="display: block">
                         <?}else{?>
                             <div id="cont" style="display: none">
                         <?}?>
@@ -73,6 +79,16 @@
                         }
                         $( "#3" ).click(function() {
                             $("#cont" ).fadeToggle( 500, "linear" );
+                            if($("#cont").hasClass("droped")) {
+                                $('#cont').removeClass("droped")
+                                document.cookie = "cont=false";
+                                console.log("gashlilia");
+                            }else{
+                                $('#cont').addClass("droped")
+
+                                document.cookie = "cont=true";
+                                console.log("damalulia");
+                            }
                         });
                     </script>
                 </div>
@@ -81,8 +97,8 @@
                         <div class="panel-heading" style="height: 30px; text-align: center; padding: 5px;">
                             <h4  id="2" style="margin: auto; cursor: pointer"> Template   <i style="float: right" class="fa fa-fw fa-arrows-v"></i>  </h4>
                         </div>
-                        <? if ($page_cont->id==1){?>
-                        <div id="temp" style="display: block">
+                        <? if (checkDrop("temp")){?>
+                        <div id="temp"  class="droped" style="display: block">
                             <?}else{?>
                             <div id="temp" style="display: none">
                                 <?}?>
@@ -107,25 +123,35 @@
                         }
                         $( "#2" ).click(function() {
                             $("#temp" ).fadeToggle( 500, "linear" );
+                            if($("#temp").hasClass("droped")) {
+                                $('#temp').removeClass("droped")
+                                document.cookie = "temp=false";
+                                console.log("gashlilia");
+                            }else{
+                                $('#temp').addClass("droped")
+
+                                document.cookie = "temp=true";
+                                console.log("damalulia");
+                            }
 
                         });
                     </script>
                 </div>
                 <div class="col-lg-1 col-md-6">
-                     <a class=" btn btn-danger" onclick="delete_page(<?=$page_cont->id?>)" >Delete</a>
+                     <a class=" btn btn-danger" onclick="delete_page('<?=$page_cont->alias ?>')" > Delete </a>
                 </div>
                 <div class="col-lg-1 col-md-6" style="float: right">
                     <input type="submit"  value="Save" class="btn btn-default" >
                 </div>
                 <div class="col-lg-2 col-md-6" style="float: left">
-                    <?if((isset($_GET['suc']))&&($_GET['suc']==1)){?>
+                    <?if(checkSession()){?>
                         <div class="alert alert-success" style="height: 35px; width: 185px; float: left; text-align: center; padding: 7px;">
-                            <strong>Successfully Saved</strong>
+                            <strong> Successfully Saved </strong>
                         </div>
                     <?}?>
-                    <?if((isset($_GET['suc']))&&($_GET['suc']==0)){?>
-                        <div class="alert alert-danger" style="height: 35px; width: 200px; float: left; text-align: center; padding: 7px;">
-                            <strong>Page hasn't changed </strong>
+                    <?if(checkErrorSession()){?>
+                        <div class="alert alert-danger" style="height: 35px; width: 260px; float: left; text-align: center; padding: 7px;">
+                            <strong> Page haven't saved successfully </strong>
                         </div>
                     <?}?>
                     <div class="alert alert-success" id="suc_msg" style="display: none; height: 35px; width: 200px; float: left; text-align: center; padding: 7px;">

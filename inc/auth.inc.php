@@ -6,7 +6,6 @@
  * Time: 18:10
  */
     @session_start();
-
     if(!isset($_SESSION['admin'])){
         echo ($_SESSION['admin']);
         header('location: '.$config->domain.'/login.php');
