@@ -13,7 +13,7 @@ class UnDeleteModel{
 
     function unDeletePage($alias){
 
-        $sql = "update bulk_pages set is_deleted='0' WHERE alias='$alias'" ;
+        $sql = "update bulk_pages set is_deleted='0' , delete_by='0', delete_time='0' WHERE alias='$alias'" ;
         $res=mysql_query($sql);
         if ($res){
             echo "ok";

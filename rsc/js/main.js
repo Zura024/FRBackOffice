@@ -39,11 +39,8 @@ function doCheck() {
     }
 }
 
-function tttt(alias) {
-    console.log(alias)
-}
 function delete_page(alias,id) {
-    console.log(alias);
+    console.log(alias+"  "+id);
     bootbox.confirm({
         message: "Do you really want to delete this page?",
         buttons: {
@@ -68,6 +65,7 @@ function delete_page(alias,id) {
                         if (data=="ok"){
                             console.log(data);
                             $("#suc_msg").show();
+                            console.log("#page"+id)
                             $("#page"+id).remove();
                         }else {
                             console.log(data);
