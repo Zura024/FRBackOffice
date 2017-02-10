@@ -6,8 +6,7 @@
  * Date: 10.02.2017
  * Time: 16:42
  */
-require_once "/../config/db_congif.php";
-require_once "/../config/site_config.php";
+
 class ChangePasswordModel{
 
     function changePassword($pass){

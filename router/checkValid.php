@@ -6,8 +6,9 @@
  * Time: 10:19
  */
 
-require_once '/../model/CheckValidModel.php';
-
+require_once '../model/CheckValidModel.php';
+require_once "../config/db_congif.php";
+require_once "../config/site_config.php";
 if (!empty($_POST)&&(isset($_POST['alias']))) {
     $del = new CheckValidModel();
     $del->check($_POST['alias']);

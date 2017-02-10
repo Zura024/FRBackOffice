@@ -6,7 +6,7 @@
  * Date: 01.02.2017
  * Time: 16:03
  */
-    session_start();
+    @session_start();
 
     class adminUser{
 

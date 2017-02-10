@@ -7,8 +7,7 @@
  * Time: 13:50
  */
 session_start();
-require_once "/../config/db_congif.php";
-require_once "/../config/site_config.php";
+
 class UnDeleteModel{
 
     function unDeletePage($alias){

@@ -6,8 +6,7 @@
  * Date: 03.02.2017
  * Time: 13:27
  */
-require_once "/../config/db_congif.php";
-require_once "/../config/site_config.php";
+
 @session_start();
 class RedirectModel{
     function saveToDb($array){

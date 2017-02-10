@@ -5,8 +5,7 @@
  * Date: 07.02.2017
  * Time: 11:51
  */
-require_once "/../config/db_congif.php";
-require_once "/../config/site_config.php";
+
 @session_start();
 class AddPageModel{
     function addPage($arr){

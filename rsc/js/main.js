@@ -50,8 +50,9 @@ function unDeleted(alias) {
         },
         success :  function(data) {
             if (data=="ok"){
-                console.log("ok");
                 $("#delete"+alias).remove();
+                location.reload();
+                //window.location.href = "http://stackoverflow.com";
             }else {
                 console.log(data)
             }

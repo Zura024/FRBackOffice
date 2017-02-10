@@ -6,8 +6,7 @@
  * Date: 08.02.2017
  * Time: 10:20
  */
-require_once "/../config/db_congif.php";
-require_once "/../config/site_config.php";
+
 class CheckValidModel{
 
     function check($alias){

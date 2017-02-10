@@ -8,8 +8,7 @@
  */
 
 session_start();
-require_once "/../config/db_congif.php";
-require_once "/../config/site_config.php";
+
 class DeleteModel{
     function deletePage($alias){
         $admin=$_SESSION['admin']->id;

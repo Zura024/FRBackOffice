@@ -7,7 +7,9 @@
  */
 global $config;
 
-require_once "/../model/redirectModel.php";
+require_once "../model/redirectModel.php";
+require_once "../config/db_congif.php";
+require_once "../config/site_config.php";
 if(!empty($_POST) && isset($_POST['id'])){
     $red=new RedirectModel();
     $res=$red->createArray($_POST['id']);
