@@ -22,5 +22,7 @@ if(!empty($_GET) && isset($_GET['lang_id'])) {
 
 if(empty($_GET)){
     $res = new MenuController();
-    $page = $res->getMenu(1);
+    $result = $res->getMenu(1);
+    $page=$result[0];
+    $deleted=$result[1];
 }

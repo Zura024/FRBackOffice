@@ -25,3 +25,4 @@ if(!empty($_GET) && isset($_GET['lang_id'])){
     $page=$result[0];
     $deleted=$result[1];
 }
+

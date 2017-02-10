@@ -43,7 +43,6 @@
                       <a id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
                     </li>
                 <?} else{
-
                     if (checkDrop($pages->id)){?>
                         <li>
                             <a id="page<?=$pages->id?>" onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
@@ -66,9 +65,6 @@
                             </ul>
                         </li>
                     <?}
-
-
-
                 }?>
             <?}?>
         </ul>

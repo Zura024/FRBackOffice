@@ -41,8 +41,8 @@ if(!empty($_GET)&&($_GET['status'])){
         <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
         <form class="form-signin" action="controller/loginController.php" method="post">
             <span id="reauth-email" class="reauth-email"></span>
-            <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required autofocus>
-            <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+            <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" autocomplete="off" required autofocus>
+            <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" autocomplete="off" required>
             <button style="cursor: pointer" class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
         </form>
     </div>
