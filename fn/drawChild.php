@@ -5,7 +5,7 @@
  * Date: 2/5/2017
  * Time: 4:06 AM
  */
- function drawChild($page ){
+ function drawChild($page){
      global $config;
      ?>
      <?foreach ($page as $key => $pages){ ?>

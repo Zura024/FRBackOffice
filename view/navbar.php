@@ -61,7 +61,7 @@
                                 <li>
                                     <a href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
                                 </li>
-                                <? $cnt=drawChild($pages->child) ?>
+                                <? drawChild($pages->child) ?>
                             </ul>
                         </li>
                     <?}
