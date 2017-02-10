@@ -49,8 +49,10 @@ class RedirectModel{
             $result=mysql_query($sql) or die(mysql_error());
 
             if ($result){
+
                 $_SESSION['msg']="success";
-                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id.'&s=1');
+
+                header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id);
             }else{
                 $_SESSION['error']="error";
                 header('location: '.$config->domain.'/page.php?id='.$array->id.'&lang_id='.$array->lang_id);

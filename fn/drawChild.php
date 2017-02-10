@@ -26,9 +26,12 @@ function checkDrop($id){?>
 
 function checkSession(){?>
     <?if (isset($_SESSION['msg'])){?>
-        <? unset($_SESSION['msg']); return true?>
+        <? unset($_SESSION['msg']);
+        return true
+        ?>
     <?}else{?>
-        <?return false?>
+        <?return false
+        ?>
     <?}
 }
 function checkErrorSession(){?>
