@@ -31,11 +31,12 @@
 
 
 
-            $query = "SELECT `id`, `username`, `active`, 'role' FROM `admin` WHERE username = '$user->username' AND password = '$user->password'";
+            $query = "SELECT `id`, `username`, `active`, `role` FROM `admin` WHERE username = '$user->username' AND password = '$user->password' AND active='1'";
             $user_set = mysql_query($query);
             if(mysql_num_rows($user_set) > 0){
                 $admin = (object) mysql_fetch_assoc($user_set);
                 $_SESSION['admin']->id=$admin->id;
+                $_SESSION['admin']->role=$admin->role;
                 if($admin->active == 0){
                     return (object) array('resultCode' => -2, 'status' => false, 'Desc' => 'Sorry, you account is disabled');
                 }

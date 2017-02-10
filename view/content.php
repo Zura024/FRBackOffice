@@ -27,6 +27,7 @@
 <div id="page-wrapper">
     <? include 'view/addPage.php'?>
     <? include 'view/unDelete.php' ?>
+    <? include 'view/changePassword.php' ?>
     <div class="container-fluid">
         <form action="<?=$config->domain?>/router/redirect.php" method="post">
             <!-- Page Heading -->

@@ -2,6 +2,44 @@
  * Created by user1 on 06.02.2017.
  */
 
+function changePassword() {
+    var old_pass = $('#old_pass').val();
+    var new_pass = $('#new_pass').val();
+    var confirm_pass = $('#confirm_new_pass').val();
+    console.log(old_pass+" "+new_pass+" "+confirm_pass);
+    if (((old_pass.length<5)||(old_pass.length>11))||(new_pass.length<5)|| (new_pass.length>11)||(confirm_pass.length<5)|| (confirm_pass.length>11)){
+        $('#msgsg').remove();
+        $('#pass_msg').append('<p id="msgsg"> Nassword must have been 5-10 character </p>');
+        console.log("error")
+    }else {
+        if (new_pass!=confirm_pass){
+            $('#msgsg').remove();
+            $('#pass_msg').append('<p id="msgsg"> New password Does not Match </p>');
+        }else {
+            var passwords={
+                old_pass:old_pass,
+                new_pass:new_pass,
+                confirm_pass:confirm_pass
+            }
+            $.ajax({
+                type : 'POST',
+                url  : 'router/changePassword.php',
+                data : {
+                    password : JSON.stringify(passwords)
+                },
+                success :  function(data) {
+                    if (data=="ok"){
+                        console.log(data);
+                    }else {
+                        console.log(data)
+                    }
+
+                }
+            });
+        }
+    }
+
+}
 function unDeleted(alias) {
     console.log("unDeleted+"+alias);
     $.ajax({
@@ -44,13 +82,14 @@ function delete_page(alias,id) {
     bootbox.confirm({
         message: "Do you really want to delete this page?",
         buttons: {
-            confirm: {
-                label: 'Yes',
-                className: 'btn-danger'
-            },
             cancel: {
                 label: 'No',
                 className: 'btn-success'
+            },
+            confirm: {
+                label: 'Yes',
+                className: 'btn-danger'
+
             }
         },
         callback: function (result) {

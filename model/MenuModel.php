@@ -64,7 +64,7 @@ class MenuModel
         if(mysql_num_rows($res) > 0){
             $j=0;
             while ($j<($cnt - $cnt%3)){
-                $ar[]=(object)array('alias' => $deleted[$j]->alias, 'ge' => $deleted[$j]->title, 'en'=>$deleted[$j+1]->title, 'ru'=> $deleted[$j+2]->title);
+                $ar[]=(object)array('alias' => $deleted[$j]->alias, 'ge' => $deleted[$j]->title, 'ru'=>$deleted[$j+1]->title, 'en'=> $deleted[$j+2]->title);
                 $j=$j+3;
             }
         }
