@@ -6,6 +6,10 @@
  * Date: 01.02.2017
  * Time: 15:59
  */
+
+require_once '../model/adminUserModel.php';
+require_once "../config/db_congif.php";
+require_once "../config/site_config.php";
 if(!empty($_POST)){
 
     if(isset($_POST['username']) && isset($_POST['password'])){

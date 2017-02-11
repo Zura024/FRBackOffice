@@ -16,6 +16,8 @@ global $config;
     <? include 'view/addPage.php'?>
     <? include 'view/unDelete.php' ?>
     <? include 'view/changePassword.php' ?>
+    <? include 'view/userManage.php' ?>
+    <? include 'view/user.php' ?>
 
     <div style="height: 50px">
         <?if(checkSession()){?>

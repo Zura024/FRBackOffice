@@ -24,13 +24,13 @@
         </li>
         <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?=$_SESSION['admin']->username?> <b class="caret"></b></a>
-            <ul class="dropdown-menu" style="width: 180px!important;">
+            <ul class="dropdown-menu" style="width: 200px!important;">
                 <li>
                     <a data-toggle="modal" data-target="#myModal2" style="cursor: pointer"> <i class="fa fa-fw fa-key"></i> Change password</a>
                 </li>
                 <?if ($_SESSION['admin']->role==83){?>
                     <li>
-                    <a href="#"><i class="fa fa-fw fa-gear"></i> User D </a>
+                    <a onclick="getUser()" data-toggle="modal" data-target="#myModal3" style="cursor: pointer" ><i class="fa fa-fw fa-gear"></i> User Management  </a>
                     </li>
                 <?}?>
                 <li class="divider"></li>

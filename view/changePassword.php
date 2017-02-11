@@ -8,14 +8,16 @@
 ?>
 <div class="modal fade" id="myModal2" role="dialog">
     <div class="modal-dialog">
-        <div class="modal-content" style="height: 330px">
+        <div class="modal-content" style="height: 370px">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title" style="margin: auto">Change Password</h4>
+                <h4 class="modal-title" style="margin: auto">User Management</h4>
             </div>
-            <div class="modal-header" id="pass_msg"style="text-align: center; height: 50px; " >
-
-            </div>
+                <div style="height: 60px">
+                <div class="" id="msg" style=" text-align: center" >
+                    
+                </div>
+                </div>
             <div class="modal-body" style="height: 210px;">
                 <div class="form-group">
                     <input type="password" class="form-control" id="old_pass" required placeholder="Old password">

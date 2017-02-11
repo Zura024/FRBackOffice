@@ -22,8 +22,6 @@ if(!empty($_GET)&&($_GET['status'])){
 <?require_once "config/site_config.php";?>
 <?require_once "config/db_congif.php";?>
 
-<?require_once 'controller/loginController.php' ?>
-<? require_once 'model/adminUserModel.php' ?>
 
 <!DOCTYPE HTML>
 <html>
