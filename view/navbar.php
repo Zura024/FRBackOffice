@@ -14,22 +14,16 @@
     <ul class="nav navbar-right top-nav">
         <li class="dropdown">
         <li>
-            <a class="btn" href="?lang_id=1">Ge</a>
+            <a class="btn" href="?lang_id=1">Ge
+            <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ge.svg" style=" width: 20px; height: 20px; cursor: pointer; margin-left: 3px; margin-top: -2px;" ></a>
         </li>
         <li>
-           <a  href="?lang_id=1"> <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ge.svg" style=" width: 20px; height: 20px; cursor: pointer"></a>
+            <a class="btn" href="?lang_id=2">En
+                <img src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" style=" width: 20px; height: 20px; cursor: pointer; margin-left: 3px; margin-top: -2px;" ></a>
         </li>
         <li>
-            <a class="btn" href="?lang_id=2">Eng</a>
-        </li>
-        <li>
-            <a  href="?lang_id=2"> <img src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" style="width: 20px; height: 20px; cursor: pointer"></a>
-        </li>
-        <li>
-            <a class="btn" href="?lang_id=3">Rus</a>
-        </li>
-        <li>
-            <a  href="?lang_id=3"> <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg" style=" width: 20px; height: 20px; cursor: pointer"></a>
+            <a class="btn" href="?lang_id=3">Ru
+                <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg" style=" width: 20px; height: 20px; cursor: pointer; margin-left: 3px; margin-top: -2px;" ></a>
         </li>
         <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?=$_SESSION['admin']->username?> <b class="caret"></b></a>
