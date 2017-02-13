@@ -9,6 +9,7 @@
 
 @session_start();
 class RedirectModel{
+
     function saveToDb($array){
             global $conn;
             global $config;
@@ -43,6 +44,7 @@ class RedirectModel{
             if(isset($array->lang_id)){
                 $sql = $sql."lang_id = '$array->lang_id' ";
             }
+            if (isset($array->parent_id ))
 
             $sql= $sql."where id = '$array->id'";
             $result=mysql_query($sql) or die(mysql_error());
@@ -63,7 +65,7 @@ class RedirectModel{
     function createArray(){
         $arr=(object)array();
 
-
+        $arr->page=$_POST['page'];
         $arr->title=addslashes(trim($_POST['title']));
         $arr->alias=addslashes(trim($_POST['alias']));
         $arr->caption=addslashes(trim($_POST['caption']));

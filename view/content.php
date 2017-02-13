@@ -80,12 +80,11 @@
                                 <span for="meta_desc">Caption:</span><br><input class="form-control" type="text" name="caption" value="<? if (isset($page_cont->caption)){?><?= $page_cont->caption?><?}?>">
                                 <input  style="display: none" type="text" name="id" value="<? if (isset($page_cont->id)){?><?= $page_cont->id?><?}?>">
 
-                                <span for="tree">Parent : <?=drawParent($page,$page_cont)?>   </span><br><select id= 'tree' class="form-control">
+                                <span for="tree">Parent : <?=drawParent($page,$page_cont)?>   </span><br>
+                                <select id= 'tree' name="page" class="form-control">
+
                                     <?foreach ($page as $key=>$pages){?>
-                                        <option> <?=$pages->title?> </option>
-                                        <?if (!empty($pages->child)){?>
-                                            <?getChild($pages->child,1)?>
-                                        <?}?>
+                                            <?getChild($pages,0)?>
                                     <?}?>
 
                                 </select>

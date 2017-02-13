@@ -55,20 +55,30 @@ function drawParent($page,$page_cont){?>
     }?>
 <?}?>
 
-<?function getChild($page,$depth){?>
-    <? foreach ($page as $key=>$pages){
-        if (!empty($pages->child)){?>
-          <!--  <?/*for($i=0; $i<$depth; $i++){*/?>
-                <option><?/*='&nbsp&nbsp&nbsp&nbsp'*/?>
-            --><?/*}*/?>
-            <option><?='&nbsp&nbsp&nbsp&nbsp'?><?=$pages->title?></option>
-           <?getChild($pages->child,$depth+1)?>;
-        <?}else{?>
-            <?/*for($i=0; $i<$depth; $i++){*/?><!--
-                <option><?/*='&nbsp&nbsp&nbsp&nbsp'*/?>
-            --><?/*}*/?>
-            <option><?='&nbsp&nbsp&nbsp&nbsp'?><?=$pages->title?></option>
-        <?}?>
-    <?}?>
-    <?return;?>
-<?}?>
+<?function getChild($page,$depth){
+    if($page->already!=2){
+        $page->already=2;
+        if ($depth==1){?>
+            <option><?='&nbsp&nbsp&nbsp&nbsp'.$page->title?></option><?
+        }
+        if ($depth==2){?>
+            <option><?='&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'.$page->title?></option><?
+        }
+        if ($depth==3){?>
+            <option><?='&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'.$page->title?></option><?
+        }
+        if ($depth==0){?>
+            <option><?=$page->title?></option>
+        <?}
+        if ($depth==4){?>
+            <option><?='&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'.$page->title?></option><?
+        }
+
+    }
+    if(!empty($page->child)){
+        foreach ($page->child as $key=>$child){
+            getChild($child,$depth+1);
+        }
+    }
+}?>
+
