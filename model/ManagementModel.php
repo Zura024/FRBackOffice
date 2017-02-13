@@ -13,9 +13,7 @@ class ManagementModel{
         $res=mysql_query($query) or die(mysql_error());
         $user=array();
         while ($row=mysql_fetch_assoc($res)){
-
             $user[]=(object)$row;
-
         }
 
         echo json_encode($user);

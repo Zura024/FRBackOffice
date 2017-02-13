@@ -5,25 +5,59 @@ function saveUser() {
     var id = $('#user_id').val();
     var username = $('#user_username').val();
     var password = $('#user_password').val();
-    var role = $('#user_active').val();
-    var active = $('#user_role').val();
-
+    var active  = $('#user_active').val();
+    var role = $('#user_role').val();
+    console.log(active);
+    if (active=="disable"){
+        var act=0;
+    }else{
+        var act=1
+    }
     var user={
         id:id,
         username:username,
         password:password,
         role:role,
-        active:active
+        active:act
     }
 
     $.ajax({
-        type : 'POST',
-        url  : 'router/saveUser.php',
-        data : {
-            user : JSON.stringify(user)
+        type: 'POST',
+        url: 'router/saveUser.php',
+        data: {
+            user: JSON.stringify(user)
         },
-        success :  function(data) {
+        success: function (data) {
+            var res = JSON.parse(data);
             console.log(data);
+            if (res.statusCode == 0) {
+                $('#ms1').remove();
+                $('#msg1').removeClass("alert");
+                $('#msg1').removeClass("alert-danger");
+                $('#msg1').addClass("alert");
+                $('#msg1').addClass("alert-success");
+                $('#msg1').append("<strong id='ms1'>" + res.desc + "</strong>");
+                setTimeout(function () {
+                    $('#ms1').remove();
+                    $('#msg1').removeClass("alert");
+                    $('#msg1').removeClass("alert-danger");
+                    $('#msg1').removeClass("alert-success");
+                }, 4000)
+            } else {
+                $('#ms1').remove();
+                $('#msg1').removeClass("alert");
+                $('#msg1').removeClass("alert-success");
+                $('#msg1').addClass("alert");
+                $('#msg1').addClass("alert-danger");
+                $('#msg1').append("<strong id='ms1'>" + res.desc + "</strong>");
+                setTimeout(function () {
+                    $('#ms1').remove();
+                    $('#msg1').removeClass("alert");
+                    $('#msg1').removeClass("alert-danger");
+                    $('#msg1').removeClass("alert-success");
+                }, 4000)
+            }
+
 
         }
     });
@@ -65,10 +99,16 @@ function getUserByid(a) {
             var user=JSON.parse(data);
             $('#modal_header').append("<h4 class='modal-title' id='modal_t' style='margin: auto'>"+ user.username + "</h4> ");
             $('#user_b').append("<div id='user_body'></div>")
+            if (user.active==1){
+                var active= "<select id='user_active' class='form-control'> <option value='enable' > Enable </option>  <option value='disable' class='form-control' > Disable </option> </select>";
+            }else {
+                var active= " <select id='user_active' class='form-control'> <option value='disable'> Disable </option> <option value='enable' class='form-control'> Enable </option>  </select>";
+            }
+           /// $('#user_body').append(active);
             $('#user_body').append("<div class='form-group' style='display: none'><input type='text' class='form-control' id='user_id'  required placeholder='id' value="+ user.id +"> </div>")
             $('#user_body').append("<div class='form-group'> <label style='margin-left: 5px' for='user_username'>Username</label> <input type='text' class='form-control' id='user_username' required placeholder='Username' value="+ user.username +"></div>")
             $('#user_body').append("<div class='form-group'><label style='margin-left: 5px' for='user_password'>Password</label><input type='password' class='form-control' id='user_password' required placeholder='*******' value=''></div>")
-            $('#user_body').append("<div class='form-group'><label style='margin-left: 5px' for='user_active'>Active</label><input type='text' class='form-control' id='user_active' required placeholder='Active' value="+ user.active +"></div>")
+            $('#user_body').append("<div class='form-group'><label style='margin-left: 5px' for='user_active'>Active</label>" + active + "</div>");
             $('#user_body').append("<div class='form-group'><label style='margin-left: 5px' for='user_role'>Role</label>  <input type='text' class='form-control' id='user_role' required placeholder='Role' value="+ user.role +"></div>")
             $('#user_body').append("<button style='float: right' class='btn btn-default' onclick='saveUser()'> Save </button>")
             $('#user_body').append("<button data-toggle='modal' data-dismiss='modal' data-target='#myModal3' class='btn btn-default' onclick='saveUser()'> back </button>")
@@ -194,6 +234,7 @@ function delete_page(alias,id) {
                             $("#suc_msg").show();
                             console.log("#page"+id)
                             $("#page"+id).remove();
+                            location.reload();
                         }else {
                             console.log(data);
                         }

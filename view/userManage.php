@@ -11,7 +11,7 @@
         <div class="modal-content" style="height: 500px">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title" style="margin: auto">Change Password</h4>
+                <h4 class="modal-title" style="margin: auto">User Management</h4>
             </div>
             <div class="modal-body" style="height: 400px;">
                 <table class="table table-hover" id="user_table">
@@ -21,7 +21,6 @@
                         <td> <strong>Role</strong> </td>
                         <td> <strong>Active</strong> </td>
                     </tr>
-
                 </table>
             </div>
         </div>

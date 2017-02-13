@@ -35,17 +35,14 @@
             $user_set = mysql_query($query);
             if(mysql_num_rows($user_set) > 0){
                 $admin = (object) mysql_fetch_assoc($user_set);
+                $_SESSION['admin'] = $admin;
                 $_SESSION['admin']->id=$admin->id;
                 $_SESSION['admin']->role=$admin->role;
-                if($admin->active == 0){
-                    return (object) array('resultCode' => -2, 'status' => false, 'Desc' => 'Sorry, you account is disabled');
-                }
-                $_SESSION['admin'] = $admin;
+
                 $this->user = $user;
 
                 return (object) array('resultCode' => 0, 'status' => true, 'Desc' => 'Succeeded authentication', 'user' => $this->user);
             } else {
-
                 return (object) array('resultCode' => -1, 'status' => false, 'Desc' => 'username or password is incorrect');
             }
         }

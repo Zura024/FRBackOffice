@@ -13,7 +13,7 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div style="height: 60px">
-                <div class="" id="msg" style=" text-align: center" >
+                <div class="" id="msg1" style=" text-align: center" >
 
                 </div>
             </div>

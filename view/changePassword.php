@@ -11,11 +11,11 @@
         <div class="modal-content" style="height: 370px">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title" style="margin: auto">User Management</h4>
+                <h4 class="modal-title" style="margin: auto">Change Password</h4>
             </div>
                 <div style="height: 60px">
                 <div class="" id="msg" style=" text-align: center" >
-                    
+
                 </div>
                 </div>
             <div class="modal-body" style="height: 210px;">
