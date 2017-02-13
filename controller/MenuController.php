@@ -6,8 +6,7 @@
  * Date: 2/5/2017
  * Time: 3:33 AM
  */
-class MenuController
-{
+class MenuController{
     function getMenu($lang_id){
         $menu=new MenuModel();
         return $menu->getMenu($lang_id);

@@ -38,11 +38,12 @@ function saveUser() {
                 $('#msg1').addClass("alert-success");
                 $('#msg1').append("<strong id='ms1'>" + res.desc + "</strong>");
                 setTimeout(function () {
-                    $('#ms1').remove();
+                    /*$('#ms1').remove();
                     $('#msg1').removeClass("alert");
                     $('#msg1').removeClass("alert-danger");
-                    $('#msg1').removeClass("alert-success");
-                }, 4000)
+                    $('#msg1').removeClass("alert-success");*/
+                    $('#back_to').click();
+                }, 1000)
             } else {
                 $('#ms1').remove();
                 $('#msg1').removeClass("alert");
@@ -111,7 +112,7 @@ function getUserByid(a) {
             $('#user_body').append("<div class='form-group'><label style='margin-left: 5px' for='user_active'>Active</label>" + active + "</div>");
             $('#user_body').append("<div class='form-group'><label style='margin-left: 5px' for='user_role'>Role</label>  <input type='text' class='form-control' id='user_role' required placeholder='Role' value="+ user.role +"></div>")
             $('#user_body').append("<button style='float: right' class='btn btn-default' onclick='saveUser()'> Save </button>")
-            $('#user_body').append("<button data-toggle='modal' data-dismiss='modal' data-target='#myModal3' class='btn btn-default' onclick='saveUser()'> back </button>")
+            $('#user_body').append("<button data-toggle='modal' id='back_to' data-dismiss='modal' data-target='#myModal3' class='btn btn-default' > back </button>")
         }
     });
 
@@ -144,11 +145,12 @@ function changePassword() {
                         $('#msg').addClass("alert-success");
                         $('#msg').append("<strong id='ms'>"+ res.desc +"</strong>");
                         setTimeout(function () {
-                            $('#ms').remove();
+                            /*$('#ms').remove();
                             $('#msg').removeClass("alert");
                             $('#msg').removeClass("alert-danger");
-                            $('#msg').removeClass("alert-success");
-                        },4000)
+                            $('#msg').removeClass("alert-success");*/
+                            location.reload();
+                        },1000)
                     }else{
                         $('#ms').remove();
                         $('#msg').removeClass("alert");
