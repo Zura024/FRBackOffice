@@ -7,6 +7,7 @@
  */
 @session_start();
 /*die(print_r($_SESSION))*/
+
 ?>
 <script>
     $( document ).ready(function() {
@@ -78,6 +79,14 @@
                                 <?}?>
                                 <span for="meta_desc">Caption:</span><br><input class="form-control" type="text" name="caption" value="<? if (isset($page_cont->caption)){?><?= $page_cont->caption?><?}?>">
                                 <input  style="display: none" type="text" name="id" value="<? if (isset($page_cont->id)){?><?= $page_cont->id?><?}?>">
+
+                                <span for="tree">Parent : <?=drawParent($page,$page_cont)?>   </span><br><select id= 'tree' class="form-control">
+                                    <?foreach ($page as $key=>$pages){?>
+                                        <option> <?=$pages->title?> </option>
+                                        <?="&nbsp&nbsp&nbsp&nbsp&nbsp".getChild($pages->child)?>
+                                    <?}?>
+
+                                </select>
                             </div>
                         </div>
                         <script> function test1() {
@@ -109,7 +118,7 @@
                                 <?}?>
                                 <span for="meta_desc">Language:</span><br><select id="lang" class="form-control">
                                     <option value="1" <? if (($page_cont->lang_id==1)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?> >Ge</option>
-                                    <option value="2" <? if (($page_cont->lang_id==2)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?>>Eng</option>
+                                    <option value="2" <? if (($page_cont->lang_id==2)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?>>En</option>
                                     <option value="3" <? if (($page_cont->lang_id==3)&&(isset($page_cont->lang_id))){?><?="selected"?><?}?> >Ru</option>
                                     <option <? if (!isset($page_cont->lang_id)){?><?="selected"?><?}?>></option>
                                 </select>

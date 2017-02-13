@@ -20,13 +20,18 @@ class PageModel{
         $res=mysql_query($query);
         $page=array();
 
+
+
         while ($row = mysql_fetch_assoc($res)){
             $page=(object)$row;
         }
 
+
+        $menu= new MenuController();
+       // $page->child=$menu->getChild($page->lang_id,$page->id);
+
         $result=array();
         array_push($result,$page);
-        $menu= new MenuController();
         $men=$menu->getMenu($page->lang_id);
         array_push($result,$men[0]);
         array_push($result,$men[1]);

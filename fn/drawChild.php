@@ -41,3 +41,30 @@ function checkErrorSession(){?>
         <?return false?>
     <?}
 }
+function drawParent($page,$page_cont){?>
+    <? $cnt=0;?>
+    <? foreach ($page as $key=>$pages){
+        if ($pages->id==$page_cont->parent_id){
+            $cnt++;
+            return $pages->title;
+        }
+    } ?>
+
+    <?if ($cnt==0){
+        return $page_cont->title;
+    }?>
+<?}?>
+
+<?function getChild($page){?>
+    <? foreach ($page as $key=>$pages){?>
+        <?if (!empty($pages->child)){?>
+            <option> <?$pages->title?></option><?
+            getChild($pages);
+        }else{?>
+            <option> <?$pages->title?></option>
+        <?}?>
+    <?}?>
+
+
+
+<?}?>
