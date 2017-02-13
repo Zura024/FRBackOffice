@@ -6,8 +6,21 @@
  * Date: 2/5/2017
  * Time: 3:33 AM
  */
-class MenuModel
-{
+class MenuModel{
+
+
+    function saveChild($pages,$parentPage){
+        foreach ($pages as $key=>$page){
+            if($page->parent_id==$parentPage->id){
+                array_push($parentPage->child,$page);
+                $page->already=1;
+                $this->saveChild($pages,$page);
+            }
+
+        }
+        return $parentPage;
+    }
+
     function getMenu($lang_id){
 
         global $config;
@@ -25,33 +38,23 @@ class MenuModel
         $ar=array();
         $cnt=0;
         while ($row = mysql_fetch_assoc($res)){
-            $row['cnt']=0;
+            $row['already']=0;
             $pages[]=(object)$row;
             $pages[$cnt]->child=array();
             $cnt++;
-        }
-
-
-        for ($i=0; $i<$cnt; $i++ ) {
-            for ($j = 0; $j < $cnt; $j++) {
-                if($pages[$i]->parent_id==$pages[$j]->id){
-                    array_push($pages[$j]->child,$pages[$i]);
-                    $pages[$j]->cnt=$pages[$j]->cnt+1;
-
-                }
-            }
 
         }
-
-
-       for ($i=0; $i<$cnt; $i++ ) {
-            if($pages[$i]->parent_id==0){
-                $result[]=$pages[$i];
+        foreach ($pages as $key=>$page){
+            if ($page->already==0) {
+                $page->already=1;
+               $response=$this->saveChild($pages, $page);
+               if ($response->parent_id==0){
+                    $result[]=$response;
+               }
             }
         }
 
-
-        $query = "SELECT `alias`, `title`, `id` FROM `bulk_pages` WHERE is_deleted='1' ORDER BY alias ";
+        $query = "SELECT `alias`, `title`, `id` FROM `bulk_pages` WHERE is_deleted='1' ORDER BY alias,lang_id ";
         $res=mysql_query($query) or die(mysql_error());
         $deleted=array();
         $cnt=0;
@@ -64,7 +67,7 @@ class MenuModel
         if(mysql_num_rows($res) > 0){
             $j=0;
             while ($j<($cnt - $cnt%3)){
-                $ar[]=(object)array('alias' => $deleted[$j]->alias, 'ge' => $deleted[$j]->title, 'ru'=>$deleted[$j+1]->title, 'en'=> $deleted[$j+2]->title);
+                $ar[]=(object)array('alias' => $deleted[$j]->alias, 'ge' => $deleted[$j]->title, 'en'=>$deleted[$j+1]->title, 'ru'=> $deleted[$j+2]->title);
                 $j=$j+3;
             }
         }
