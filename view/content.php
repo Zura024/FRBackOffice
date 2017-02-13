@@ -83,7 +83,9 @@
                                 <span for="tree">Parent : <?=drawParent($page,$page_cont)?>   </span><br><select id= 'tree' class="form-control">
                                     <?foreach ($page as $key=>$pages){?>
                                         <option> <?=$pages->title?> </option>
-                                        <?="&nbsp&nbsp&nbsp&nbsp&nbsp".getChild($pages->child)?>
+                                        <?if (!empty($pages->child)){?>
+                                            <?getChild($pages->child,1)?>
+                                        <?}?>
                                     <?}?>
 
                                 </select>

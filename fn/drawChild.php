@@ -10,7 +10,7 @@
      ?>
      <?foreach ($page as $key => $pages){ ?>
          <li>
-         <a  id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+         <a id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
          </li>
      <?}
 
@@ -55,16 +55,20 @@ function drawParent($page,$page_cont){?>
     }?>
 <?}?>
 
-<?function getChild($page){?>
-    <? foreach ($page as $key=>$pages){?>
-        <?if (!empty($pages->child)){?>
-            <option> <?$pages->title?></option><?
-            getChild($pages);
-        }else{?>
-            <option> <?$pages->title?></option>
+<?function getChild($page,$depth){?>
+    <? foreach ($page as $key=>$pages){
+        if (!empty($pages->child)){?>
+          <!--  <?/*for($i=0; $i<$depth; $i++){*/?>
+                <option><?/*='&nbsp&nbsp&nbsp&nbsp'*/?>
+            --><?/*}*/?>
+            <option><?='&nbsp&nbsp&nbsp&nbsp'?><?=$pages->title?></option>
+           <?getChild($pages->child,$depth+1)?>;
+        <?}else{?>
+            <?/*for($i=0; $i<$depth; $i++){*/?><!--
+                <option><?/*='&nbsp&nbsp&nbsp&nbsp'*/?>
+            --><?/*}*/?>
+            <option><?='&nbsp&nbsp&nbsp&nbsp'?><?=$pages->title?></option>
         <?}?>
     <?}?>
-
-
-
+    <?return;?>
 <?}?>
