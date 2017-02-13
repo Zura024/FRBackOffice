@@ -24,11 +24,11 @@
             }
 
 
-            $user->password = md5($user->password.md5('admin'));
-            if(!preg_match('/^[a-zA-Z0-9]{5,}$/', $user->username)) {
-                return (object) array('resultCode' => -3, 'status' => false, 'Desc' => 'Incorrect Username format');
+            if(!preg_match('/^[a-zA-Z0-9]{5,}$/', $user->username) || !preg_match('/^[A-Za-z0-9_]+$/', $user->password))  {
+                return (object) array('resultCode' => -3, 'status' => false, 'Desc' => 'Incorrect Username or Password format');
             }
 
+            $user->password = md5($user->password.md5('admin'));
 
 
             $query = "SELECT `id`, `username`, `active`, `role` FROM `admin` WHERE username = '$user->username' AND password = '$user->password' AND active='1'";

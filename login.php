@@ -14,7 +14,7 @@ if(!empty($_GET)&&($_GET['status'])){
         $response="Username or Password is incorrect";
     }
     if ($_GET['status']==-3){
-        $response="Incorrect Username format";
+        $response="Incorrect Username or Password format";
     }
 
 }

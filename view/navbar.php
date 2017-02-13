@@ -5,7 +5,7 @@
  * Date: 2/5/2017
  * Time: 2:52 AM
  */
-
+$admn=strtoupper($_SESSION['admin']->username);
 ?>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"">
     <div class="navbar-header">
@@ -26,7 +26,7 @@
                 <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg" style=" width: 20px; height: 20px; cursor: pointer; margin-left: 3px; margin-top: -2px;" ></a>
         </li>
         <li>
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?=$_SESSION['admin']->username?> <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?=$admn?> <b class="caret"></b></a>
             <ul class="dropdown-menu" style="width: 200px!important;">
                 <li>
                     <a data-toggle="modal" data-target="#myModal2" style="cursor: pointer"> <i class="fa fa-fw fa-key"></i> Change password</a>
