@@ -33,7 +33,7 @@ $admn=strtoupper($_SESSION['admin']->username);
                 </li>
                 <?if ($_SESSION['admin']->role==83){?>
                     <li>
-                    <a onclick="getUser()"  id="getU" data-toggle="modal" data-target="#myModal3" style="cursor: pointer" ><i class="fa fa-fw fa-gear"></i> User Management  </a>
+                        <a onclick="getUser()"  id="getU" data-toggle="modal" data-target="#myModal3" style="cursor: pointer" ><i class="fa fa-fw fa-gear"></i> User Management  </a>
                     </li>
                 <?}?>
                 <li class="divider"></li>

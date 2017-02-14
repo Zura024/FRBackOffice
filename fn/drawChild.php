@@ -5,15 +5,56 @@
  * Date: 2/5/2017
  * Time: 4:06 AM
  */
+?>
+
+<?
  function drawChild($page){
      global $config;
      ?>
      <?foreach ($page as $key => $pages){ ?>
-         <li>
-         <a id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
-         </li>
+
+         <? if (empty($pages->child)){?>
+             <li>
+                 <a id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
+             </li>
+         <?} else{
+             if (checkDrop($pages->id)){?>
+                 <li>
+                     <a id="page<?=$pages->id?>" onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                     <ul id="demo<?=$pages->id?>" class="collapse in">
+                         <li  style="list-style-type: none!important; text-decoration: none!important; color: #747e80!important;">
+                             <a  style="text-decoration: none!important; color: #747e80!important;"   id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?="&nbsp&nbsp&nbsp"?><?=$pages->caption?></a>
+                         </li>
+                         <? dr($pages->child)?>
+                     </ul>
+                 </li>
+
+             <?} else{?>
+                 <li>
+                     <a onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="collapsed" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
+                     <ul id="demo<?=$pages->id?>" class="collapse">
+                         <li style=" list-style-type: none!important; text-decoration: none!important; color: #747e80!important;">
+                             <a style="text-decoration: none!important; color: #747e80!important;"  id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?="&nbsp&nbsp&nbsp"?><?=$pages->caption?></a>
+                         </li>
+                         <? dr($pages->child) ?>
+                     </ul>
+                 </li>
+             <?}
+         }?>
+
      <?}
 
+ }
+
+ function dr($page){
+     global $config;
+     foreach ($page as $key => $pages){ ?>
+
+         <li style="list-style-type: none!important;  text-decoration: none!important; color: #747e80!important;">
+             <a style="text-decoration: none!important; color: #747e80!important; " id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?="&nbsp&nbsp&nbsp"?><?=$pages->caption?></a>
+         </li>
+
+     <?}
  }
 
 function checkDrop($id){?>

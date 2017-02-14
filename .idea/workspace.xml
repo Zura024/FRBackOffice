@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7ab77c-d569-4f08-a4c9-812cf9ec88c7" name="Default" comment="" />
+    <list default="true" id="9a7ab77c-d569-4f08-a4c9-812cf9ec88c7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fn/drawChild.php" afterPath="$PROJECT_DIR$/fn/drawChild.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/navbar.php" afterPath="$PROJECT_DIR$/view/navbar.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +18,64 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rsc/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+              <folding>
+                <marker date="1487062243452" expanded="true" signature="2621:2636" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="2707:2722" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="2802:2817" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="2895:2910" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="3009:3024" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="3596:3608" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="4274:4287" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="4474:4490" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="4729:4745" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="4969:4985" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="5117:5133" ph="..." />
+                <marker date="1487062243452" expanded="true" signature="5330:5342" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/navbar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="76" column="67" lean-forward="false" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#2;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drawChild.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fn/drawChild.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#li#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#li#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,18 +147,18 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/model/PageModel.php" />
         <option value="$PROJECT_DIR$/controller/MenuController.php" />
-        <option value="$PROJECT_DIR$/fn/drawChild.php" />
         <option value="$PROJECT_DIR$/model/GetUserModel.php" />
         <option value="$PROJECT_DIR$/model/MenuModel.php" />
         <option value="$PROJECT_DIR$/inc/menu.inc.php" />
         <option value="$PROJECT_DIR$/inc/page.inc.php" />
         <option value="$PROJECT_DIR$/view/content.php" />
-        <option value="$PROJECT_DIR$/view/navbar.php" />
         <option value="$PROJECT_DIR$/rsc/js/main.js" />
         <option value="$PROJECT_DIR$/router/saveUser.php" />
         <option value="$PROJECT_DIR$/model/SaveUserModel.php" />
         <option value="$PROJECT_DIR$/model/redirectModel.php" />
         <option value="$PROJECT_DIR$/model/AddPageModel.php" />
+        <option value="$PROJECT_DIR$/view/navbar.php" />
+        <option value="$PROJECT_DIR$/fn/drawChild.php" />
       </list>
     </option>
   </component>
@@ -140,6 +201,104 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="router" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,13 +412,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240547000" />
+    <option name="totallyTimeSpent" value="243665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15572916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15572916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -465,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fn/drawChild.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="n#style#0;n#option#3;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/MenuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -617,37 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rsc/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <marker date="1487062243452" expanded="true" signature="2621:2636" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="2707:2722" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="2802:2817" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="2895:2910" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="3009:3024" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="3596:3608" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="4274:4287" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="4474:4490" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="4729:4745" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="4969:4985" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="5117:5133" ph="..." />
-            <marker date="1487062243452" expanded="true" signature="5330:5342" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#4;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/saveUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -729,6 +847,56 @@
           <folding>
             <element signature="e#6#87#0#PHP" expanded="false" />
             <marker date="1487057670212" expanded="true" signature="5042:5123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding>
+            <marker date="1487062243452" expanded="true" signature="2621:2636" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="2707:2722" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="2802:2817" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="2895:2910" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="3009:3024" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="3596:3608" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="4274:4287" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="4474:4490" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="4729:4745" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="4969:4985" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="5117:5133" ph="..." />
+            <marker date="1487062243452" expanded="true" signature="5330:5342" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fn/drawChild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#li#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#li#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="76" column="67" lean-forward="false" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
