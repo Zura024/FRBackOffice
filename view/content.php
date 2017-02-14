@@ -79,16 +79,17 @@
                                 <?}?>
                                 <span for="meta_desc">Caption:</span><br><input class="form-control" type="text" name="caption" value="<? if (isset($page_cont->caption)){?><?= $page_cont->caption?><?}?>">
                                 <input  style="display: none" type="text" name="id" value="<? if (isset($page_cont->id)){?><?= $page_cont->id?><?}?>">
+                                <?if (isset($_GET['id'])){?>
+                                    <span for="tree">Parent :  </span><br>
+                                    <select id= 'tree' name="page" class="form-control">
 
-                                <span for="tree">Parent :  </span><br>
-                                <select id= 'tree' name="page" class="form-control">
-
-                                    <?foreach ($page as $key=>$pages){
+                                        <?foreach ($page as $key=>$pages){
                                             getChild($pages,0,$page_cont);
-                                    }?>
-                                    <option <? if (($page_cont->parent_id==0)){?><?="selected"?><?}?>  value="0"> None </option>
+                                        }?>
+                                        <option <? if (($page_cont->parent_id==0)){?><?="selected"?><?}?>  value="0"> Root </option>
 
-                                </select>
+                                    </select>
+                                <?}?>
                             </div>
                         </div>
                         <script> function test1() {
