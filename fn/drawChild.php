@@ -50,9 +50,15 @@
      global $config;
      foreach ($page as $key => $pages){ ?>
 
-         <li style="list-style-type: none!important;  text-decoration: none!important; color: #747e80!important;">
+         <?if ($pages->already!=3) {?>
+              <?$pages->already=3;?>
+             <li style="list-style-type: none!important;  text-decoration: none!important; color: #747e80!important;">
              <a style="text-decoration: none!important; color: #747e80!important; " id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?="&nbsp&nbsp&nbsp"?><?=$pages->caption?></a>
-         </li>
+             </li>
+
+         <?}?>
+
+
 
      <?}
  }
