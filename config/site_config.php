@@ -6,6 +6,6 @@
  * Time: 16:00
  */
 $config = (Object)array(
-    'domain' => 'http://localhost/adminPanel'
+    'domain' => 'http://localhost/MSGBackOffice'
 );
 

@@ -2,8 +2,474 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7ab77c-d569-4f08-a4c9-812cf9ec88c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/bg_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/..png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/.image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/avi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/bat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/bmp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/bz2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/ccd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/cgi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/com.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/csh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/deb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/dll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/docx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/exe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/fla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/flv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/gif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/gz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/htm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/iso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/jar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/java.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/jpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/jpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mdx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/midi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mkv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mp4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/mpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/nfo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/nrg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/ogg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/phps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/pl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/pm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/ppt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/pptx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/psd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/qt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/rar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/rpm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/rtf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/sql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/srt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/sub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/swf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/tgz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/tif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/tiff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/torrent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/ttf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/wav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/wma.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/xlsx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/big/zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/..png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/.image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/avi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/bat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/bmp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/bz2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/ccd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/cgi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/com.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/csh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/deb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/dll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/docx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/exe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/fla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/flv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/gif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/gz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/htm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/iso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/jar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/java.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/jpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/jpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mdx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/midi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mkv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mp4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/mpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/nfo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/nrg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/ogg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/phps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/pl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/pm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/ppt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/pptx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/psd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/qt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/rar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/rpm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/rtf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/sql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/srt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/sub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/swf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/tgz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/tif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/tiff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/torrent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/ttf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/wav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/wma.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/xlsx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/files/small/zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/clipboard-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/clipboard-clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/folder-new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/maximize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/move.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/icons/view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/kcf_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/tree/denied.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/tree/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/tree/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/tree/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/ui-icons_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/ui-icons_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/img/ui-icons_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/bg_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/..png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/.image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/avi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/bat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/bmp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/bz2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/ccd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/cgi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/com.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/csh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/deb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/dll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/docx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/exe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/fla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/flv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/gif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/gz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/htm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/iso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/jar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/java.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/jpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/jpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mdx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/midi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mkv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mp4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/mpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/nfo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/nrg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/ogg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/phps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/pl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/pm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/ppt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/pptx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/psd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/qt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/rar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/rpm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/rtf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/sql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/srt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/sub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/swf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/tgz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/tif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/tiff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/torrent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/ttf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/wav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/wma.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/xlsx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/big/zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/..png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/.image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/avi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/bat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/bmp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/bz2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/ccd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/cgi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/com.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/csh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/deb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/dll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/docx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/exe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/fla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/flv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/gif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/gz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/htm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/iso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/jar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/java.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/jpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/jpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mdx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/midi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mkv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mp4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mpeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/mpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/nfo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/nrg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/ogg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/phps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/pl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/pm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/ppt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/pptx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/psd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/qt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/rar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/rpm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/rtf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/sql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/srt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/sub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/swf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/tgz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/tif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/tiff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/torrent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/ttf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/wav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/wma.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/xlsx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/files/small/zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/clipboard-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/clipboard-clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/folder-new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/maximize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/move.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/icons/view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/kcf_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/tree/denied.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/tree/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/tree/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/tree/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/ui-icons_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/ui-icons_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/img/ui-icons_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/browse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/theme_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/theme_dark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/theme_default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/cache/theme_default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/conf/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/conf/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/conf/upload.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/class/browser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/class/minifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/class/uploader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/types/type_img.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/core/types/type_mime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/css/000.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/css/001.transForm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/css/999.agent.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/css/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/doc/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/doc/Changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/doc/LICENSE.GPL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/doc/LICENSE.LGPL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/integration/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/integration/BolmerCMS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/integration/drupal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/000._jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/002._jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/006.jquery.transForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/010.jquery.fixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/020.jquery.rightClick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/021.jquery.taphold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/022.jquery.shDropUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/029.jquery.agent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/030.jquery.helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/031.jquery.md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/040.object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/041.dialogs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/050.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/060.toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/070.settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/080.files.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/090.folders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/091.menus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/091.viewImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/100.clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/110.dropUpload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/120.misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js_localize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/af.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/bg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/ca.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/cs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/da.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/de.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/el.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/es.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/et.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/fa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/fi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/he.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/hu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/id.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/it.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/ja.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/lt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/lv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/nl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/no.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/pl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/pt-br.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/pt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/ro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/ru.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/sk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/sv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/tr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/uk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/vi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lang/zh-cn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/class_fastImage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/class_image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/class_image_gd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/class_image_gmagick.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/class_image_imagick.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/class_zipFolder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/helper_dir.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/helper_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/helper_httpCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/helper_path.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/helper_phpGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/lib/helper_text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/01.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/02.transForm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/03.misc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/css.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/dark/js.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/01.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/02.transForm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/03.misc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/css.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/themes/default/js.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/tpl/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/tpl/tpl_browser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/tpl/tpl_css.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/tpl/tpl_javascript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/upload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fn/drawChild.php" afterPath="$PROJECT_DIR$/fn/drawChild.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/site_config.php" afterPath="$PROJECT_DIR$/config/site_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rsc/js/ckeditor/config.js" afterPath="$PROJECT_DIR$/rsc/js/ckeditor/config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +484,54 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="drawChild.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="drawChild.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fn/drawChild.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/site_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="115" lean-forward="false" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,8 +569,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rsc/css/tpl.css" />
-        <option value="$PROJECT_DIR$/controller/AddPageController.php" />
         <option value="$PROJECT_DIR$/controller/RedirectController.php" />
         <option value="$PROJECT_DIR$/router/addPag.php" />
         <option value="$PROJECT_DIR$/view/editPage.php" />
@@ -116,6 +618,8 @@
         <option value="$PROJECT_DIR$/model/AddPageModel.php" />
         <option value="$PROJECT_DIR$/view/navbar.php" />
         <option value="$PROJECT_DIR$/fn/drawChild.php" />
+        <option value="$PROJECT_DIR$/config/site_config.php" />
+        <option value="$PROJECT_DIR$/rsc/js/ckeditor/config.js" />
       </list>
     </option>
   </component>
@@ -147,39 +651,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="rsc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSGBackOffice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -189,78 +720,21 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
+              <option name="myItemId" value="MSGBackOffice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="router" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,17 +748,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\adminPanel\rsc\js" />
-      <recent name="C:\xampp\htdocs\MSGAdminPanel\model" />
-      <recent name="C:\xampp\htdocs\MSGAdminPanel\controller" />
-      <recent name="C:\xampp\htdocs\MSGAdminPanel\inc" />
-      <recent name="C:\xampp\htdocs\MSGAdminPanel\rsc\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\adminPanel\router" />
       <recent name="C:\xampp\htdocs\MSGAdminPanel\rsc" />
       <recent name="C:\xampp\htdocs\MSGAdminPanel\rsc\" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\MSGBackOffice\rsc\js\ckeditor" />
+      <recent name="C:\xampp\htdocs\adminPanel\rsc\js" />
+      <recent name="C:\xampp\htdocs\MSGAdminPanel\model" />
+      <recent name="C:\xampp\htdocs\MSGAdminPanel\controller" />
+      <recent name="C:\xampp\htdocs\MSGAdminPanel\inc" />
     </key>
   </component>
   <component name="RunManager">
@@ -366,11 +840,12 @@
       <workItem from="1486994438106" duration="5710000" />
       <workItem from="1487001672485" duration="7591000" />
       <workItem from="1487069415492" duration="246000" />
+      <workItem from="1487080842792" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243911000" />
+    <option name="totallyTimeSpent" value="244013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -427,22 +902,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/lang/af.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/AddPageController.php" />
-    <entry file="file://$PROJECT_DIR$/controller/RedirectController.php" />
     <entry file="file://$PROJECT_DIR$/inc/test.php" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/rsc/js/bootbox.min.js">
@@ -456,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,9 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="81" column="64" lean-forward="false" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,9 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,12 +1158,42 @@
           <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/navbar.php" />
+    <entry file="file://$PROJECT_DIR$/config/site_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/js/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/kcfinder-3.20-test1/conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/js/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="115" lean-forward="false" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
