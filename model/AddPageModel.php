@@ -37,13 +37,15 @@ class AddPageModel{
     }
     function createArray(){
         $arr=(object)array();
-        $arr->title_ge=addslashes(trim($_POST['title_ge']));
-        $arr->alias=addslashes(trim($_POST['alias']));
-        $arr->caption_ge=addslashes(trim($_POST['caption_ge']));
-        $arr->title_en=addslashes(trim($_POST['title_en']));
-        $arr->caption_en=addslashes(trim($_POST['caption_en']));
-        $arr->title_ru=addslashes(trim($_POST['title_ru']));
-        $arr->caption_ru=addslashes(trim($_POST['caption_ru']));
+
+        $arr->title_ge=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ  -]/", '', $_POST['title_ge']);
+        $arr->alias=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['alias']);
+        $arr->caption_ge=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption_ge']);
+        $arr->title_en=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['title_en']);
+        $arr->caption_en=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption_en']);
+        $arr->title_ru=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['title_ru']);
+        $arr->caption_ru=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption_ru']);
+
         return $arr;
     }
 }

@@ -12,8 +12,4 @@ class MenuController{
         return $menu->getMenu($lang_id);
     }
 
-    function getChild($lang_id,$id){
-        $menu=new MenuModel();
-        return $menu->getChild($lang_id,$id);
-    }
 }

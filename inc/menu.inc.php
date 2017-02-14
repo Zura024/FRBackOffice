@@ -6,6 +6,10 @@
  * Time: 3:31 AM
  */
 if(!empty($_GET) && isset($_GET['lang_id'])){
+    if(!is_numeric($_GET['lang_id'])){
+        $_GET['lang_id']=1;
+        header('location: '.$config->domain.'');
+    }
     $lang_id=$_GET['lang_id'];
     $pages=new MenuController();
     $result=$pages->getMenu($lang_id);

@@ -29,7 +29,7 @@ class MenuModel{
 
              header('location: '.$config->domain.'');
 
-         }
+        }
 
         $query = "SELECT `id`, `parent_id`,`title`,`caption` , `lang_id` FROM `bulk_pages`  WHERE lang_id ='$lang_id'&& is_deleted=0 ORDER by sorder";
         $res=mysql_query($query) or die(mysql_error());
@@ -85,32 +85,5 @@ class MenuModel{
         return $resul;
     }
 
-    function getChild($lang_id,$id){
-
-        $query = "SELECT `id`, `parent_id`,`title`,`caption` , `lang_id` FROM `bulk_pages`  WHERE lang_id ='$lang_id'&& is_deleted=0 ORDER by sorder";
-        $res=mysql_query($query) or die(mysql_error());
-        $pages=array();
-        $result=array();
-        $ar=array();
-        $cnt=0;
-        while ($row = mysql_fetch_assoc($res)){
-            $row['already']=0;
-            $pages[]=(object)$row;
-            $pages[$cnt]->child=array();
-            $cnt++;
-        }
-        foreach ($pages as $key=>$page){
-            if ($page->already==0) {
-                $page->already=1;
-                $response=$this->saveChild($pages, $page);
-                if ($response->id==$id){
-                    return $response->child;
-                }
-            }
-        }
-
-
-
-    }
 
 }

@@ -42,9 +42,11 @@ class RedirectModel{
                 $sql = $sql."template = '$array->template', ";
             }
             if(isset($array->lang_id)){
-                $sql = $sql."lang_id = '$array->lang_id' ";
+                $sql = $sql."lang_id = '$array->lang_id', ";
             }
-            if (isset($array->parent_id ))
+            if(isset($array->lang_id)){
+                $sql = $sql."parent_id = '$array->parent_id' ";
+            }
 
             $sql= $sql."where id = '$array->id'";
             $result=mysql_query($sql) or die(mysql_error());
@@ -65,19 +67,20 @@ class RedirectModel{
     function createArray(){
         $arr=(object)array();
 
-        $arr->page=$_POST['page'];
-        $arr->title=addslashes(trim($_POST['title']));
-        $arr->alias=addslashes(trim($_POST['alias']));
-        $arr->caption=addslashes(trim($_POST['caption']));
-        $arr->id=addslashes(trim($_POST['id']));
+
+        $arr->parent_id=$_POST['page'];
+        $arr->title=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ  -]/", '', $_POST['title']);
+        $arr->alias=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['alias']);
+        $arr->caption=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption']);
+        $arr->id=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['id']);
         $arr->content=addslashes(trim($_POST['content']));
-        $arr->sorder=addslashes(trim($_POST['sorder']));
-        $arr->meta_descr=addslashes(trim($_POST['meta_descr']));
-        $arr->meta_key=addslashes(trim($_POST['meta_key']));
-        $arr->active=addslashes(trim($_POST['active']));
-        $arr->template=addslashes(trim($_POST['template']));
-        $arr->lang_id=addslashes(trim($_POST['lang_id']));
-        //$arr->alias_id=$_POST['alias_id'];
+        $arr->sorder=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['sorder']);
+        $arr->meta_descr=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['meta_descr']);
+        $arr->meta_key=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['meta_key']);
+        $arr->active=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['active']);
+        $arr->template=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['template']);
+        $arr->lang_id=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['lang_id']);
+
 
         return $arr;
     }

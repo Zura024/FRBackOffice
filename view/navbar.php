@@ -33,7 +33,7 @@ $admn=strtoupper($_SESSION['admin']->username);
                 </li>
                 <?if ($_SESSION['admin']->role==83){?>
                     <li>
-                    <a onclick="getUser()" data-toggle="modal" data-target="#myModal3" style="cursor: pointer" ><i class="fa fa-fw fa-gear"></i> User Management  </a>
+                    <a onclick="getUser()"  id="getU" data-toggle="modal" data-target="#myModal3" style="cursor: pointer" ><i class="fa fa-fw fa-gear"></i> User Management  </a>
                     </li>
                 <?}?>
                 <li class="divider"></li>
@@ -65,7 +65,7 @@ $admn=strtoupper($_SESSION['admin']->username);
                             <a id="page<?=$pages->id?>" onclick="menu(<?=$pages->id?>)" href="javascript:;" style="cursor: pointer"   data-toggle="collapse" class="" id="test " data-target="#demo<?=$pages->id?>"> <?=$pages->caption?> <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="demo<?=$pages->id?>" class="collapse in">
                                 <li>
-                                    <a  id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->title?></a>
+                                    <a  id="page<?=$pages->id?>" href="<?=$config->domain?>/page.php?id=<?=$pages->id?>"><?=$pages->caption?></a>
                                 </li>
                                 <? drawChild($pages->child)?>
                             </ul>

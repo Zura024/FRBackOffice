@@ -7,7 +7,12 @@ function saveUser() {
     var password = $('#user_password').val();
     var active  = $('#user_active').val();
     var role = $('#user_role').val();
-    console.log(active);
+    if (password==0){
+        console.log(password+" fdsfsdf");
+    }else {
+        console.log(password+" yes");
+    }
+
     if (active=="disable"){
         var act=0;
     }else{
@@ -38,12 +43,15 @@ function saveUser() {
                 $('#msg1').addClass("alert-success");
                 $('#msg1').append("<strong id='ms1'>" + res.desc + "</strong>");
                 setTimeout(function () {
-                    /*$('#ms1').remove();
+                    $('#ms1').remove();
                     $('#msg1').removeClass("alert");
                     $('#msg1').removeClass("alert-danger");
-                    $('#msg1').removeClass("alert-success");*/
-                    $('#back_to').click();
+                    $('#msg1').removeClass("alert-success");
                 }, 1000)
+                setTimeout(function () {
+                    $('#back_to').click();
+                    $('#getU').click();
+                }, 1005)
             } else {
                 $('#ms1').remove();
                 $('#msg1').removeClass("alert");
