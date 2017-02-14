@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7ab77c-d569-4f08-a4c9-812cf9ec88c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/MenuController.php" afterPath="$PROJECT_DIR$/controller/MenuController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fn/drawChild.php" afterPath="$PROJECT_DIR$/fn/drawChild.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/menu.inc.php" afterPath="$PROJECT_DIR$/inc/menu.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/page.inc.php" afterPath="$PROJECT_DIR$/inc/page.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/AddPageModel.php" afterPath="$PROJECT_DIR$/model/AddPageModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/GetUserModel.php" afterPath="$PROJECT_DIR$/model/GetUserModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/MenuModel.php" afterPath="$PROJECT_DIR$/model/MenuModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/SaveUserModel.php" afterPath="$PROJECT_DIR$/model/SaveUserModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/redirectModel.php" afterPath="$PROJECT_DIR$/model/redirectModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rsc/js/main.js" afterPath="$PROJECT_DIR$/rsc/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/content.php" afterPath="$PROJECT_DIR$/view/content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/navbar.php" afterPath="$PROJECT_DIR$/view/navbar.php" />
-    </list>
+    <list default="true" id="9a7ab77c-d569-4f08-a4c9-812cf9ec88c7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240444000" />
+    <option name="totallyTimeSpent" value="240514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
