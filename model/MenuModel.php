@@ -10,6 +10,7 @@ class MenuModel{
 
 
     function saveChild($pages,$parentPage){
+
         foreach ($pages as $key=>$page){
             if($page->parent_id==$parentPage->id){
                 array_push($parentPage->child,$page);

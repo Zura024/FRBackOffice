@@ -11,9 +11,10 @@
 class RedirectModel{
 
     function saveToDb($array){
+
             global $conn;
             global $config;
-           $sql = "update bulk_pages set ";
+            $sql = "update bulk_pages set ";
             if(isset($array->title)){
                 $sql = $sql."title = '$array->title', ";
             }

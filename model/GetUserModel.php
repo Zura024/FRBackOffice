@@ -10,6 +10,7 @@
 class GetUserModel{
 
     function getUser($id){
+
         global $config;
         if(!is_numeric($id)){
 

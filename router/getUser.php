@@ -10,6 +10,12 @@ require_once "../config/db_congif.php";
 require_once "../config/site_config.php";
 
 if (!empty($_POST)&&(isset($_POST['id']))) {
+
+    if(!is_numeric($_POST['id'])){
+        $_POST['id']=1;
+        header('location: '.$config->domain.'');
+    }
+
     $id = $_POST['id'];
     $admin = new GetUserModel();
     $admin->getUser($id);

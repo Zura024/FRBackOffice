@@ -9,6 +9,9 @@ require_once '../model/DeleteModel.php';
 require_once "../config/db_congif.php";
 require_once "../config/site_config.php";
 if (!empty($_POST)&&(isset($_POST['alias']))) {
+
+    $alias=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['alias']);
+
     $del = new DeleteModel();
-    $del->deletePage($_POST['alias']);
+    $del->deletePage($alias);
 }

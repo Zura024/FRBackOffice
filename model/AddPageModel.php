@@ -7,8 +7,10 @@
  */
 
 @session_start();
+
 class AddPageModel{
     function addPage($arr){
+
         global $config;
         global $conn;
         $sql="INSERT INTO bulk_pages (title, alias, caption, lang_id) VALUES ('$arr->title_ge', '$arr->alias', '$arr->caption_ge', '1' )";
@@ -35,11 +37,12 @@ class AddPageModel{
             header('location: '.$config->domain);
         }
     }
+
     function createArray(){
         $arr=(object)array();
 
-        $arr->title_ge=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ  -]/", '', $_POST['title_ge']);
         $arr->alias=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['alias']);
+        $arr->title_ge=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ  -]/", '', $_POST['title_ge']);
         $arr->caption_ge=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption_ge']);
         $arr->title_en=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['title_en']);
         $arr->caption_en=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption_en']);

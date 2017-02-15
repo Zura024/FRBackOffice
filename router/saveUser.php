@@ -10,7 +10,9 @@ require_once "../config/db_congif.php";
 require_once "../config/site_config.php";
 
 if (!empty($_POST)&&(isset($_POST['user']))) {
+
     $user = $_POST['user'];
+
     $u = new SaveUserModel();
     $u->saveUser($user);
 }

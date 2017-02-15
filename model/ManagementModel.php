@@ -9,6 +9,7 @@
 class ManagementModel{
 
     function getUser(){
+
         $query = "SELECT `id`, `username`,`password`,`role`, `active` FROM `admin`";
         $res=mysql_query($query) or die(mysql_error());
         $user=array();

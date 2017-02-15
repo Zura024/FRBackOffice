@@ -8,7 +8,9 @@
 require_once '../model/AddPageModel.php';
 require_once "../config/db_congif.php";
 require_once "../config/site_config.php";
+
 if ((isset($_POST))&&(isset($_POST['alias']))){
+
     $res=new AddPageModel();
     $array=$res->createArray();
     $res->addPage($array);

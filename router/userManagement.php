@@ -9,5 +9,7 @@ require_once '../model/ManagementModel.php';
 require_once "../config/db_congif.php";
 require_once "../config/site_config.php";
 
-$manage= new ManagementModel();
-$manage->getUser();
+if ((empty($_POST)) && (empty($_GET))){
+    $manage = new ManagementModel();
+    $manage->getUser();
+}
