@@ -13,5 +13,8 @@ if ((isset($_POST))&&(isset($_POST['alias']))){
 
     $res=new AddPageModel();
     $array=$res->createArray();
-    $res->addPage($array);
+    if ($array){
+        $res->addPage($array);
+    }
+
 }

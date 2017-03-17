@@ -66,23 +66,29 @@ class RedirectModel{
     }
 
     function createArray(){
+        global $config;
         $arr=(object)array();
-
+        $arr->error=0;
 
         $arr->parent_id=$_POST['page'];
-        $arr->title=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ  -]/", '', $_POST['title']);
-        $arr->alias=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['alias']);
-        $arr->caption=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['caption']);
-        $arr->id=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['id']);
+        $arr->title=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['title']) ?  $_POST['title'] : ($arr->error=1);
+        $arr->alias=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['alias']) ?  $_POST['alias'] : ($arr->error=1) ;
+        $arr->caption=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['caption'])  ?  $_POST['caption'] : ($arr->error=1);
+        $arr->id=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['id']) ?  $_POST['id'] : ($arr->error=1);
         $arr->content=addslashes(trim($_POST['content']));
-        $arr->sorder=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['sorder']);
-        $arr->meta_descr=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['meta_descr']);
-        $arr->meta_key=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['meta_key']);
-        $arr->active=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['active']);
-        $arr->template=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['template']);
-        $arr->lang_id=preg_replace("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ   -]/", '', $_POST['lang_id']);
+        $arr->sorder=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['sorder']) ?  $_POST['sorder'] : ($arr->error=1);
+        $arr->meta_descr=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['meta_descr']) ?  $_POST['meta_descr'] : ($arr->error=1);
+        $arr->meta_key=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['meta_key']) ?  $_POST['meta_key'] : ($arr->error=1);
+        $arr->active=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['active']) ?  $_POST['active'] : ($arr->error=1);
+        $arr->template=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['template']) ?  $_POST['template'] : ($arr->error=1);
+        $arr->lang_id=!preg_match("/[^A-Za-z0-9ა-ჰА-Яа-яЀ-Џ*  -]/", $_POST['lang_id']) ?  $_POST['lang_id'] : ($arr->error=1);
 
-
-        return $arr;
+        if ($arr->error==1){
+            $_SESSION['error']="error";
+            header('location: '.$config->domain.'/page.php?id='.$arr->id.'&lang_id='.$arr->lang_id);
+            return false;
+        }else{
+            return $arr;
+        }
     }
 }

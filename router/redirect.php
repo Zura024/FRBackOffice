@@ -13,5 +13,8 @@ require_once "../config/site_config.php";
 if(!empty($_POST) && isset($_POST['id'])){
     $red=new RedirectModel();
     $res=$red->createArray();
-    $red->saveToDb($res);
+    if ($res){
+        $red->saveToDb($res);
+    }
+
 }
